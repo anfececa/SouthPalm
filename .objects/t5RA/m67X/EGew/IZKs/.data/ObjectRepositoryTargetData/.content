@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_RWhf6HWNkaOyTGAcpVT5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e09c0822-ab30-4feb-aedb-6580dce3c490" CvTextArea="126, 569, 39, 12" CvTextArgument="Claims" CvType="Text" DesignTimeRectangle="117, 567, 47, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl class='padl10' parentid='CLAIMS_BILLING' tag='SPAN' /&gt;" Guid="116713ae-bf7a-4983-8df8-4f4ab61e780b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e09c0822-ab30-4feb-aedb-6580dce3c490" CvElementArea="96, 566, 24, 22" CvType="Icon" DesignTimeRectangle="99, 568, 18, 18" FullSelectorArgument="&lt;webctrl parentid='CLAIMS_BILLING' tag='I' /&gt;" Guid="40e491a6-e84b-44da-a01a-665e85297bee" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHSSURBVEhLvZRbSwJREMf7Vj0HPQX1EkG9SBFBEYH0EhRoUHQVMrDoYheQgoiIIiqpRCpCxBS72MUyUzcr816hrToxJ/Zgu2vsUjbwZ9k95/zmzOzMlJSWV0AxVML/8Ff6f/DgqA4urt3gvvX8qPPLK+jVaAXnC4JnDIsQjkRh17wPmzt7ojIfHkE6nYZE8hUGtTppYLzxocUKDa1KwRqn7gENvL29AxofXhBc29gMqr4haO9SC9bEwGixeBw61D3iYHX/MPgCDORyOXogkUjC0uo6lFVVf9vb2NYOqxtbNCXoBJ0JwBgKhoSGYJvDCYGHIH232I4F8Pybi4Jr6pvA6/MTCMuy5IaYBoyACX7BU6k0jOnn5IF107PkIBpuGBmfhODjE7lpNpulabHaHfLAmCsurwja3jWBoqWNlNsHy1Kwx3svD7ywvAKZTIYC0EnoJUyKH3PN2Y3nTh4YSwv/Pho+sauisThMzRvAeeaizowmszww6uDIQg5j6Ngc6AwrgYvk6TkEyk6VfDA2hd15QnONBc/90Eg0KjoTJIE5jU7oyXDBVPgZBtY2jcQpf59sMKqyTiHaDGKSBZYy3fhTThJY6jzO16nrgg6tguDfqmjgT+/esLHzV8e2AAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+          <Target CVScreenId="e09c0822-ab30-4feb-aedb-6580dce3c490" CvTextArea="126, 545, 65, 12" CvTextArgument="Encounters" CvType="Text" DesignTimeRectangle="117, 543, 73, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='padl10' parentid='ENCOUNTERS_BILLING' tag='SPAN' type='' aaname='Encounters' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Encounters' /&gt;" Guid="55c914d2-cc5f-46d4-8e42-24636e2bad48" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f8a7dd99d7df8087cd9d6c20b33dd78e.png" xmlns="">0KN2JnfvIiUmaaRWHY-sAcA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

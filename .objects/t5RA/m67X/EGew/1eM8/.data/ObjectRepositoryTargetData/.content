@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LDEBw-NK60O_EtaLZWJvcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="ce8d2c01-f66c-4d81-8006-47e71f0073d8" CvTextArea="204, 672, 61, 14" CvTextArgument="My Settings" CvType="Text" DesignTimeRectangle="185, 667, 245, 22" ElementType="ListItem" FullSelectorArgument="&lt;webctrl idx='17' parentid='billingClaimUl5' tag='LI' /&gt;" Guid="76355470-f45d-4478-850c-6ff100505ee7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ce8d2c01-f66c-4d81-8006-47e71f0073d8" CvTextArea="204, 672, 61, 14" CvTextArgument="My Settings" CvType="Text" DesignTimeRectangle="185, 667, 99, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='billingClaimBtn32' tag='BUTTON' type='' class='' aaname='My Settings' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='My Settings' /&gt;" Guid="090c3673-12f8-4c79-9952-0e8569921118" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8ea7f6027e83d6adf008142b852d56be.png" xmlns="">0yv1U6N-q40SGRetGy757BQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

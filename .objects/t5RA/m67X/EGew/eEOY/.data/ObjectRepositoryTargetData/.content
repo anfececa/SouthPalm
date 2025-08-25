@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QvckbBdxOEiXdESEYjXFbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="8dc644b4-e479-4de5-bf1a-3c308d5ee96a" CvTextArea="217, 234, 19, 12" CvTextArgument="I10" CvType="Text" DesignTimeRectangle="218, 232, 17, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' /&gt;&lt;webctrl tableRow='5' tag='SPAN' /&gt;" Guid="c8489a82-c1b3-4c1e-8a47-e2e1f70e4e08" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8dc644b4-e479-4de5-bf1a-3c308d5ee96a" CvTextArea="217, 234, 19, 12" CvTextArgument="I10" CvType="Text" DesignTimeRectangle="218, 226, 100, 30" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' class='ng-binding ng-scope' tag='TD' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I10' /&gt;" Guid="0948f4b1-58c3-4cf1-ba6b-02c05dacf180" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="8dc644b4-e479-4de5-bf1a-3c308d5ee96a" CvTextArea="225, 204, 28, 11" CvTextArgument="Code" CvType="Text" DesignTimeRectangle="217, 195, 99, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Code' class='th-inner' type='' tag='DIV' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="9489cdd9-5bb5-43f3-a187-8898e33c8322" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="315a88e61f7d1d626b6699c896a4c1ad.png" xmlns="">0jqsHGuJZzEWqQc3bQHECuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

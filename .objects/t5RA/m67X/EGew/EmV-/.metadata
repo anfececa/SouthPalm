@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CPTHCPCS (0)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "EmV-IM65a0-Ky06CEHvbig",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/EmV-IM65a0-Ky06CEHvbig",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-22T16:43:57.182932Z",
+  "Updated": "2025-08-22T16:43:57.182932Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

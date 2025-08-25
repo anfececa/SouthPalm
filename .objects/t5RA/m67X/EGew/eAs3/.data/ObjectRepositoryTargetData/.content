@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fkF9Tgou3kySkry9N3dtuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e29b8f07-f53d-43f2-92c0-d2b15292c073" CvTextArea="529, 310, 150, 14" CvTextArgument="NASCIMENTO,FRANCISCO" CvType="Text" DesignTimeRectangle="527, 305, 401, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='resource-lookupIpt1' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookup-box autocomplete-off-manual ng-valid allowsmartnote_original ng-dirty ng-valid-parse ng-touched ng-not-empty x' placeholder='Enter Resource' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="93edc91b-f267-44e7-a86c-068ffe62b7c5" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e29b8f07-f53d-43f2-92c0-d2b15292c073" CvTextArea="422, 307, 51, 11" CvTextArgument="Resource" CvType="Text" DesignTimeRectangle="423, 305, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Resource' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Resource' /&gt;" Guid="3b818942-2f1a-4c44-890c-a4512bda5ee3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4858e4207c5788be3fd7d58836840e65.png" xmlns="">0ulPc9C6oIESz7ag_X8M-cA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

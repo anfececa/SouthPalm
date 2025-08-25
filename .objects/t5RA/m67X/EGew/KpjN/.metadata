@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter Password to conti…",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "KpjNt_b110i5ep2iIkMDbQ",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/KpjNt_b110i5ep2iIkMDbQ",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-19T16:36:46.0398533Z",
+  "Updated": "2025-08-19T16:36:46.0398533Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D7zLQgH_HUCh8MOsTMBxdg" Reference="LIqL7-3VC0m0ArjBSxIv3g/o4rtzJpPH0mY4KnQ8wr6tQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="20ab656d-c83e-4a5b-8022-2e49d247e903" CvElementArea="526, 394, 250, 26" CvType="InputBox" DesignTimeRectangle="527, 395, 248, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ptLookup' name='patient_name_*' tag='INPUT' idx='2' /&gt;" Guid="470fba8a-f1ba-4321-9b43-2898b12b5dff" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="20ab656d-c83e-4a5b-8022-2e49d247e903" CvTextArea="422, 397, 41, 11" CvTextArgument="Patient" CvType="Text" DesignTimeRectangle="423, 395, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Patient' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Patient' /&gt;" Guid="20216e99-21be-4d2c-8718-0f6127e15a8e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2ef97c0c5a1b8ebdfb4c1cf8e82f31a1.png" xmlns="">0jY8dKYinxkunf_tvnUMutw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

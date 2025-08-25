@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Etiqueta 'Claim Status code'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "z1u04pXiYEKhdvj7MOL3WA",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/z1u04pXiYEKhdvj7MOL3WA",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-22T17:24:11.2220633Z",
+  "Updated": "2025-08-22T17:24:11.2220633Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

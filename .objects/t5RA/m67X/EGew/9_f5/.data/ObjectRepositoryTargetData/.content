@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ngsSAcdJNkuaFfAejsxF6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="98e3b44d-e380-4fd0-a9a3-7b75995a4335" CvElementArea="1167, 130, 23, 25" CvType="CloseButton" DesignTimeRectangle="1168, 134, 20, 20" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ICD_TreatmentBtn1' tag='BUTTON' /&gt;" Guid="ab9f16c3-1d5f-421d-8369-0d73924fa6eb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="98e3b44d-e380-4fd0-a9a3-7b75995a4335" CvTextArea="1069, 137, 98, 15" CvTextArgument="Appt: (06/03/2025)" CvType="Text" DesignTimeRectangle="1071, 129, 95, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Appt: (06/03/2025) ' parentid='myModalLabel' tag='SPAN' type='' class='appt-caption pull-right mr15 ng-binding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Appt: (06/03/2025)' /&gt;" Guid="37028899-66a6-4dfd-8c61-6ab78c01f2a7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2fb03acf10532796293c620dc4ad7cd5.png" xmlns="">0D3-KL0nr6EOOM7fh86MFkQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

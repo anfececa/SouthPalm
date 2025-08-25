@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w58VpngMuEOz9fJOkQg9tQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d6df6388-cb37-4808-80b5-1d489918ecf6" CvElementArea="646, 418, 19, 18" CvTextArea="667, 421, 75, 11" CvTextArgument="Locked Claims" CvType="CheckBox" DesignTimeRectangle="649, 419, 93, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='open' tag='LABEL' /&gt;" Guid="8acb9b3c-b12f-4504-9b70-72d079cf0674" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="334a8642ec4e78aca4ddd9312517c8f0.png" xmlns="">0zYuYhLD2vkK6O3QJsrXQ0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

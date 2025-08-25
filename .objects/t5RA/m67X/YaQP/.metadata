@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Web EMR Login Page(1)",
+  "Type": "Screen",
+  "Id": "YaQPXImvAkyLtofgjLbecg",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/YaQPXImvAkyLtofgjLbecg",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/m67XNF6PvEGOgEZHi7PRPw",
+  "Created": "2025-08-19T21:02:52.6355971Z",
+  "Updated": "2025-08-19T21:02:52.6355971Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

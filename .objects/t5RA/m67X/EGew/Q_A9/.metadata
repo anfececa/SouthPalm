@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Billing",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Q_A9YP_6tUq7YXoZZGzDXg",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/Q_A9YP_6tUq7YXoZZGzDXg",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-19T19:04:49.4487358Z",
+  "Updated": "2025-08-19T19:04:49.4487358Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

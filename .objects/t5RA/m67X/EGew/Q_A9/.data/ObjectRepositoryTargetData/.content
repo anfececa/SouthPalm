@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cqCTxaLReUGH6-CYNUhDqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="dc1598c2-5fbb-492f-97fb-92889b9ad09a" CvElementArea="12, 510, 61, 43" CvTextArea="28, 540, 28, 12" CvTextArgument="Billing" CvType="Button" DesignTimeRectangle="12, 511, 61, 42" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='Billing_menu' tag='A' /&gt;" Guid="bc0596a6-fda2-48f7-9bdf-8cff174f9354" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc1598c2-5fbb-492f-97fb-92889b9ad09a" CvElementArea="11, 552, 63, 45" CvType="Button" DesignTimeRectangle="12, 554, 61, 29" FullSelectorArgument="&lt;webctrl parentid='Analytics_menu' tag='I' /&gt;" Guid="dbff8d53-f089-4043-a79f-2937f2629dee" SearchSteps="Selector, CV" />
+          <Target CVScreenId="dc1598c2-5fbb-492f-97fb-92889b9ad09a" CvElementArea="12, 510, 61, 43" CvType="Button" DesignTimeRectangle="12, 511, 61, 29" FullSelectorArgument="&lt;webctrl parentid='Billing_menu' tag='I' /&gt;" Guid="4af2717a-1894-4e63-9a60-5149755ae6be" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd9f6049265e90aeb8cc2e2c28bdba64.png" xmlns="">0ytqpfoGtr061hnk_P28kPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

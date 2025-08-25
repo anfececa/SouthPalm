@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nG9G4YxgNEmqZLzGHlYCcw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" CVScreenId="4479f532-c7d5-45a9-8459-b6b997c30cf0" CvElementArea="60, 498, 322, 44" CvTextArea="203, 513, 38, 15" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="62, 499, 320, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Login' tag='INPUT' /&gt;" Guid="ab7cc673-6973-4374-a471-27fe427a4088" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4479f532-c7d5-45a9-8459-b6b997c30cf0" CvTextArea="119, 560, 205, 16" CvTextArgument="Sign in with a different account" CvType="Text" DesignTimeRectangle="121, 558, 203, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='otherUser' tag='STRONG' type='' class='' aaname='Sign in with a different account' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sign in with a different account' /&gt;" Guid="b4aaad71-276f-48cf-8fef-1e4d6ab77ea3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba8ccd2f9dd3cc1a172e1614e8e9f3f4.png" xmlns="">0oISisbqALEGTz5bk7plVfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

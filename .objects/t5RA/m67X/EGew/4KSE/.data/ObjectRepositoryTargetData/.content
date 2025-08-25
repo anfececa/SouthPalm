@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nUduoT5r4UCEAGF9kBrYhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="69c4439d-795d-4e30-98d1-5db946c4ef1d" CvTextArea="457, 437, 316, 12" CvTextArgument="Please contact eClinicalWorks sales to renew the license." CvType="Text" DesignTimeRectangle="457, 437, 316, 12" ElementType="Text" Guid="beef6240-2266-4b0d-b54a-53b1c09d18bb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="69c4439d-795d-4e30-98d1-5db946c4ef1d" CvTextArea="458, 392, 238, 12" CvTextArgument="License expired for provider Blocker, Dana" CvType="Text" DesignTimeRectangle="458, 392, 238, 15" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TD' class='padl5 ng-scope' aaname='License expired for provider ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License expired for provider Blocker, Dana' /&gt;" Guid="bbb35275-b685-40c4-b8de-b8fa868e5893" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a3b54a29ebe3a57be2f9eb9e8feadedf.png" xmlns="">091dKP1GBoUa0eELWobBpfg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

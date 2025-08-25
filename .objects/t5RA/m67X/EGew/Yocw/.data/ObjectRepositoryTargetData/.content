@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jEnBk9mnsU-Ur-zaecawPg" Reference="LIqL7-3VC0m0ArjBSxIv3g/Yocw-TXk2EmEVVgc36rttQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="3a7a2bc7-7cbd-4e48-96dd-a92b263b3382" CvElementArea="1003, 255, 32, 23" CvTextArea="1013, 261, 11, 12" CvTextArgument="..." CvType="Button" DesignTimeRectangle="1003, 255, 33, 23" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimProviderLookupTbl*' tag='TABLE' /&gt;" Guid="ac9ec671-8a20-47d0-b4d4-36773b1811d5" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3a7a2bc7-7cbd-4e48-96dd-a92b263b3382" CvTextArea="747, 263, 67, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="712, 261, 102, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1755882320316' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Claim Status ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Claim Status' /&gt;" Guid="1d355cc3-9bdb-4a3f-a762-852c47116d09" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7c55965d5712f1747f61cc405bd5c703.png" xmlns="">0KktI-absH0KxNrPljg3Ukw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

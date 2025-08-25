@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cerrar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "CB-TQOEfg0GN7E7K_mMJTA",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/CB-TQOEfg0GN7E7K_mMJTA",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-19T21:15:46.1727338Z",
+  "Updated": "2025-08-19T21:15:46.1727338Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

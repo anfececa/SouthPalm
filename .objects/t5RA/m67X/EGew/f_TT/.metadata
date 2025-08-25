@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'A jellybean-panelLink4'",
+  "Type": "Element",
+  "Id": "f_TT7m0ayUqYQvDLOF99bg",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/f_TT7m0ayUqYQvDLOF99bg",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-19T21:07:36.0685993Z",
+  "Updated": "2025-08-19T21:07:36.0685993Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

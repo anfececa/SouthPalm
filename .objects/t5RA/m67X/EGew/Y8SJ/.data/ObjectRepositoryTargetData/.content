@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KbLA07wvD0CAF2vL1RjQQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5a0c97ec-b7b3-4e95-a30a-adcc9fac2597" CvElementArea="838, 593, 61, 27" CvTextArea="860, 599, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="840, 594, 58, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='createClaimBtn' tag='BUTTON' /&gt;" Guid="020ed787-e093-41c8-89e0-81746b99d520" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5a0c97ec-b7b3-4e95-a30a-adcc9fac2597" CvElementArea="904, 592, 63, 27" CvTextArea="916, 599, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="906, 594, 60, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='createClaimBtn2' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs' aaname='Cancel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancel' /&gt;" Guid="c357cfcb-433b-40fb-98e2-8b0ade870de0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="eade30cac865ea654d250e9ca13dd595.png" xmlns="">0A8WB48GeS0GjJ_55OaTOvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

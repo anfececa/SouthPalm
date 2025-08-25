@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QlQv4PrqpkW5ePlTZp0cHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" DesignTimeRectangle="61, 412, 256, 40" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='passwordField' tag='INPUT' type='password' class='pwd-eye-glyph pull-left ui-keyboard-input ui-widget-content ui-corner-all ui-keyboard-nokeyboard' aaname='Enter Password to continue' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="af73c465-b71c-4e4f-86f1-74ace8e59565" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="02230703-21e5-44df-b8d9-4a0edc1e075c" CvTextArea="146, 374, 152, 12" CvTextArgument="Enter Password to continue" CvType="Text" DesignTimeRectangle="147, 372, 150, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter  to continue' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enter Password to continue' /&gt;" Guid="5438dab0-c629-4f40-a517-99621d85145a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40542c005d302954a316d508e08b3c1d.png" xmlns="">0oL41a-vKbUiYOedoFPx2Gw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

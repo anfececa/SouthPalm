@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fIR3M38UIEqru1n3rzAfxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" DesignTimeRectangle="108, 521, 51, 21" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1755880379574' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1755880379574 closable1755880379574 ng-pristine ng-untouched ng-valid ng-empty allowsmartnote_original' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3a78fd87-b82a-4222-9e2d-73f79fd58e02" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63fc1928-5894-440e-812b-43f078e35f9f" CvTextArea="112, 475, 96, 15" CvTextArgument="CPT/HCPCS (0)" CvType="Text" DesignTimeRectangle="83, 473, 124, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='icd1755880379574' tag='H4' class='blue-header pull-left ml30 ng-binding' aaname=' CPT/HCPCS (0)' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='CPT/HCPCS (0)' /&gt;" Guid="ca98054f-f157-4660-9f59-f81f7007647c" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="63fc1928-5894-440e-812b-43f078e35f9f" CvTextArea="65, 525, 8, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="54, 521, 30, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1755880379574' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='text-center' aaname='*' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='*' /&gt;" Guid="b18d391a-c5dc-4a62-b63f-e70658290bdb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="142f92f587eb0c6ed910f35286d10904.png" xmlns="">0w1rmhs-fRU6Jb3kNkhRh6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

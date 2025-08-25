@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QYQz1VY9JEGzqRB-_lWLZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" CVScreenId="ff930450-84b8-4d11-9813-9837226bd944" CvElementArea="60, 455, 323, 43" CvTextArea="207, 470, 30, 13" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="62, 456, 320, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl id='nextStep' tag='INPUT' /&gt;" Guid="df6df59e-2097-4777-ae9c-f21c66ac8942" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ff930450-84b8-4d11-9813-9837226bd944" CvTextArea="109, 421, 226, 13" CvTextArgument="Enter your password on next screen" CvType="Text" DesignTimeRectangle="77, 401, 290, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' parentid='loginFormDiv' tag='DIV' class='same-fntsty sign-in login-brtop' aaname='Enter your password on next screen &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Enter your password on next screen' /&gt;" Guid="6fcb558d-a0c2-471c-9ef7-0f128847a894" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d7ec6f73260d7aa7abca947fd5723b26.png" xmlns="">06NCv-drPFUOApfx8sLxguA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j8FTVc4xBUGnR_t-Askqng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d6337c16-d20e-42e8-9efd-8465d0882ef7" CvTextArea="421, 403, 379, 15" CvTextArgument="A claim already exists for this patient with the same Service Date." CvType="Text" DesignTimeRectangle="421, 403, 379, 15" ElementType="Text" Guid="d0fa2f88-6972-4336-9b94-bc054519c805" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d6337c16-d20e-42e8-9efd-8465d0882ef7" CvTextArea="802, 403, 146, 15" CvTextArgument="Are you sure you want to" CvType="Text" DesignTimeRectangle="802, 403, 146, 15" ElementType="Text" Guid="accadaae-73ab-4190-98dd-d4bb480b926f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ffca33d1d849b77a2a31b6fb4cbe13de.png" xmlns="">088mhzr_CfUKi1ZTz2oGLcw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

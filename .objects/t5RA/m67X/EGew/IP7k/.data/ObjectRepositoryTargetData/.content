@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="76DeWWLkWkKnrO62Lmogtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="acef2b2a-4b3c-4cea-88cf-ae09a075a669" CvTextArea="103, 454, 92, 11" CvTextArgument="Create New Claim" CvType="Text" DesignTimeRectangle="84, 449, 131, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimLookupBtn11' tag='BUTTON' /&gt;" Guid="a924645c-b617-45ee-bf99-420c2d42377c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="acef2b2a-4b3c-4cea-88cf-ae09a075a669" CvElementArea="81, 415, 73, 28" CvType="Button" DesignTimeRectangle="83, 417, 70, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimLookupBtn10' tag='BUTTON' type='button' class='btn btn-default btn-xs btn-aquagrey dropdown-toggle' aaname='Claims                                 ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Claims' /&gt;" Guid="6f087cca-5cf7-48be-8fb8-637401a9c28f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="20ef30cece8c223a1d9f603f692c0bb6.png" xmlns="">0HJHbo9vLQkmLOpYdCSz-hQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

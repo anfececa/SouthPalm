@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g55BeA4iUU-Lq8dQQaO81A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="f7da4791-1aee-48de-8436-b4ffe77a2d6d" CvTextArea="204, 564, 66, 11" CvTextArgument="Delete Claim" CvType="Text" DesignTimeRectangle="185, 559, 105, 21" ElementType="Button" FullSelectorArgument="&lt;webctrl id='mnuDeleteClaim*' tag='BUTTON' /&gt;" Guid="1984aa9f-fa1f-4021-815b-2eea683661ff" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f7da4791-1aee-48de-8436-b4ffe77a2d6d" CvTextArea="204, 564, 66, 11" CvTextArgument="Delete Claim" CvType="Text" DesignTimeRectangle="185, 559, 245, 21" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' parentid='billingClaimUl5' tag='LI' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Delete Claim' /&gt;" Guid="c869ed8e-7b80-4d45-8243-e349c5b15cca" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="de8e3a0e2e84f2448b60407b130de179.png" xmlns="">0Z2ojyCfHy0uWn7FEMrXXOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

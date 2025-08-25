@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wrD1LnTQrUKTmq7yLVws0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="107a3489-8e99-4646-a1c0-9270ac4c3ab7" CvTextArea="537, 366, 106, 12" CvTextArgument="CFM RPM PATIENT" CvType="Text" DesignTimeRectangle="538, 364, 105, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='facility-lookupUl1' tag='SPAN' /&gt;" Guid="c3416970-09f4-4742-9c4e-90558e4187d9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="107a3489-8e99-4646-a1c0-9270ac4c3ab7" CvTextArea="546, 387, 410, 11" CvTextArgument="6238 ATLANTIC AVE,DELRAY BEACH,FL,33484-3501 Code: CFM" CvType="Text" DesignTimeRectangle="538, 382, 418, 22" FullSelectorArgument="&lt;webctrl class='clearfix' parentid='facility-lookupUl1' tag='DIV' /&gt;" Guid="c97b70b3-9664-4674-bf0a-d26f0aa1b589" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d8063f189871975f2449449708e51b1.png" xmlns="">09X-eH6rgNUyd5NxbF7hryQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

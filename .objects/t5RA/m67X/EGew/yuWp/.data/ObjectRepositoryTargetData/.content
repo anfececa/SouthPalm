@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bNyNWaH94kWF-HM1WwG41w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="8bc17652-29f6-4b77-98b3-74acc4f1ec09" CvElementArea="837, 579, 40, 26" CvTextArea="848, 585, 18, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="838, 580, 38, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimStatusCodesBtn6' tag='BUTTON' /&gt;" Guid="a40e4943-fbb2-49a3-8625-82964caf9aad" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8bc17652-29f6-4b77-98b3-74acc4f1ec09" CvElementArea="884, 579, 63, 26" CvTextArea="896, 585, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="886, 580, 60, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimStatusCodesBtn5' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs pull-right' aaname='Cancel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancel' /&gt;" Guid="386d1f9f-ab0b-4120-8db9-8e009143aa91" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b49da7388ec793efc51669c00b1a062.png" xmlns="">0j5Nkt8Q-dkK_OHyh01qj8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

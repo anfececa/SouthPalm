@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l0ThBncqkkagLpm5QRiiNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="1ce12b0f-26ab-4e57-8c04-1c2e0801e5c4" CvElementArea="324, 149, 78, 31" CvTextArea="349, 157, 26, 12" CvTextArgument="Salir" CvType="Button" DesignTimeRectangle="324, 148, 79, 32" ElementType="Button" FullSelectorArgument="&lt;ctrl name='¿Desea salir del sitio?' role='dialog' /&gt;&lt;ctrl name='Salir' role='push button' /&gt;" Guid="bddabdab-b761-448f-9693-6aaa2f9149aa" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='¿Desea salir del sitio?' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1ce12b0f-26ab-4e57-8c04-1c2e0801e5c4" CvElementArea="410, 147, 82, 35" CvTextArea="425, 157, 50, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="411, 148, 79, 32" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='¿Desea salir del sitio?' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Cancelar' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Cancelar' /&gt;" Guid="3ea44b40-f4e9-4b5d-81e3-16aaead394cf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee724375472e44b7124457d4999a045e.png" xmlns="">0key10AJIF0eBBu-uITUWlw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

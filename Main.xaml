@@ -1,0 +1,973 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1303,9247" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1092,57" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+      <ueab:ExcelProcessScopeX.Body>
+        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="546,610" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,550" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\prog01\Downloads\South Palm Cardiovascular Associates June 2025 Billing Report.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="478,254" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,194" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Dr. Francisco Nascimento Traini&quot;)]" SaveTo="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ueab:ReadRangeX>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelProcessScopeX.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ueab:ExcelProcessScopeX>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,9167" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="1058,8926" sap2010:WorkflowViewState.IdRef="Sequence_12">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,8864" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Enter username to conti…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[GlobalVariablesNamespace.GlobalVariables.Usuario]" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" ContentHash="FzDgJ2oyiEWC6A_-9Ylm8Q" DesignTimeRectangle="62, 346, 320, 40" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='doctorID' tag='INPUT' type='text' class='form-control login-box clearable' aaname='Enter username to continue' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="17ff0075-aff7-4661-b531-108e5682a0a9" InformativeScreenshot="978736ae429c937744e3c9d67ce0e5b1.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/y8dPKfcq90OlIEQiz01sNA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="8586ac53-61cd-41b9-945d-ada1b279a6f8" CvElementArea="60, 455, 323, 43" CvTextArea="207, 470, 30, 13" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="62, 456, 320, 42" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='nextStep' tag='INPUT' type='submit' class='btn btn-emr btn-sm agentButton' aaname='Next' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Next' /&gt;" Guid="37dcb61d-8784-4b85-bc12-1dbcc73eae38" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" CVScreenId="ff930450-84b8-4d11-9813-9837226bd944" ContentHash="QYQz1VY9JEGzqRB-_lWLZg" CvElementArea="60, 455, 323, 43" CvTextArea="207, 470, 30, 13" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="62, 456, 320, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl id='nextStep' tag='INPUT' /&gt;" Guid="df6df59e-2097-4777-ae9c-f21c66ac8942" InformativeScreenshot="d7ec6f73260d7aa7abca947fd5723b26.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/2JPFIgzsAEqzvL-JIZRI_w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ff930450-84b8-4d11-9813-9837226bd944" CvTextArea="109, 421, 226, 13" CvTextArgument="Enter your password on next screen" CvType="Text" DesignTimeRectangle="77, 401, 290, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' parentid='loginFormDiv' tag='DIV' class='same-fntsty sign-in login-brtop' aaname='Enter your password on next screen &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Enter your password on next screen' /&gt;" Guid="6fcb558d-a0c2-471c-9ef7-0f128847a894" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Enter Password to conti…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,288" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[GlobalVariablesNamespace.GlobalVariables.Clave]" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" ContentHash="QlQv4PrqpkW5ePlTZp0cHg" DesignTimeRectangle="61, 412, 256, 40" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='passwordField' tag='INPUT' type='password' class='pwd-eye-glyph pull-left ui-keyboard-input ui-widget-content ui-corner-all ui-keyboard-nokeyboard' aaname='Enter Password to continue' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="af73c465-b71c-4e4f-86f1-74ace8e59565" InformativeScreenshot="40542c005d302954a316d508e08b3c1d.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/KpjNt_b110i5ep2iIkMDbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="02230703-21e5-44df-b8d9-4a0edc1e075c" CvTextArea="146, 374, 152, 12" CvTextArgument="Enter Password to continue" CvType="Text" DesignTimeRectangle="147, 372, 150, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter  to continue' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enter Password to continue' /&gt;" Guid="5438dab0-c629-4f40-a517-99621d85145a" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log In'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/authenticate/getPwdPage" CVScreenId="4479f532-c7d5-45a9-8459-b6b997c30cf0" ContentHash="nG9G4YxgNEmqZLzGHlYCcw" CvElementArea="60, 498, 322, 44" CvTextArea="203, 513, 38, 15" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="62, 499, 320, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Login' tag='INPUT' /&gt;" Guid="ab7cc673-6973-4374-a471-27fe427a4088" InformativeScreenshot="ba8ccd2f9dd3cc1a172e1614e8e9f3f4.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/HOr2gtjMWkyZ4JzNe5Uz9Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="4479f532-c7d5-45a9-8459-b6b997c30cf0" CvTextArea="119, 560, 205, 16" CvTextArgument="Sign in with a different account" CvType="Text" DesignTimeRectangle="121, 558, 203, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='otherUser' tag='STRONG' type='' class='' aaname='Sign in with a different account' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sign in with a different account' /&gt;" Guid="b4aaad71-276f-48cf-8fef-1e4d6ab77ea3" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ok'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5dc41166-457e-41dc-b380-e4a12bd41823" ContentHash="vLsofJkPNEyRuetTFlf14w" CvElementArea="914, 472, 41, 26" CvTextArea="925, 478, 18, 12" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="915, 473, 38, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Ok' parentid='providerLicense' tag='BUTTON' /&gt;" Guid="c85932eb-2203-48fb-bb35-d435c056d632" InformativeScreenshot="59089920d1d17aad64daf2d1a6613855.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/tJkq_LfrNEi8u2VOyQH-lQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                        <uix:Target CVScreenId="5dc41166-457e-41dc-b380-e4a12bd41823" CvTextArea="458, 392, 238, 12" CvTextArgument="License expired for provider Blocker, Dana" CvType="Text" DesignTimeRectangle="454, 390, 272, 17" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TD' class='padl5 ng-scope' aaname='License expired for provider ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License expired for provider Blocker, Dana' /&gt;" Guid="adcf21ed-79c0-4b72-8cab-14a8cc68a3a8" SearchSteps="FuzzySelector, CV" />
+                        <uix:Target CVScreenId="5dc41166-457e-41dc-b380-e4a12bd41823" CvTextArea="458, 409, 269, 12" CvTextArgument="License expired for provider FINEGAN, DANIEL E" CvType="Text" DesignTimeRectangle="454, 407, 272, 17" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TD' class='padl5 ng-scope' aaname='License expired for provider ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License expired for provider FINEGAN, DANIEL E' /&gt;" Guid="f320020e-8355-445a-ab15-c2a36d5d1f80" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Element 'A jellybean-panelLink4'" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="6e961590-3f75-4764-81cc-597cc3ac8fc5" ContentHash="8tFzaWC6sUiiglTxjow7Pw" CvElementArea="11, 126, 62, 43" CvType="Button" DesignTimeRectangle="31, 140, 23, 15" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" Guid="353b0c3a-9c94-44d3-ae61-6a0a86816793" InformativeScreenshot="9a277143e83a3a9af15e48f6c8743690.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/f_TT7m0ayUqYQvDLOF99bg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="6e961590-3f75-4764-81cc-597cc3ac8fc5" CvElementArea="11, 126, 62, 43" CvType="Button" DesignTimeRectangle="12, 128, 61, 40" FullSelectorArgument="&lt;webctrl id='jellybean-panelLink4' tag='A' /&gt;" Guid="d7dbcb0b-90e3-4888-87f6-b4c0e962d8a7" SearchSteps="Selector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DM'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b734b544-c3d9-44eb-9133-203f9a3e5772" ContentHash="xKv8sYA44kiICl6120849w" CvElementArea="11, 125, 62, 42" CvType="Button" DesignTimeRectangle="31, 139, 23, 15" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" Guid="226f913b-2267-434b-b6d0-edd77d7bbb6f" InformativeScreenshot="ba8229a885c5fb0747b589698c7b3ea0.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/lnK4jJjTOUGA2XpY97x0lw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="b734b544-c3d9-44eb-9133-203f9a3e5772" CvElementArea="74, 128, 45, 37" CvType="Icon" DesignTimeRectangle="81, 137, 24, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='jellybean-panelLink6' tag='SPAN' type='' class='ng-binding' aaname='DM' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DM' /&gt;" Guid="65290acb-8228-4a8c-800a-a9816457fe3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAXCAYAAAAYyi9XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIuSURBVEhLvZa9a9tAGMbvb3GWaMvQQVM2/wOekgyZ3MlO6qJCXUq0BEVQsjhQl0wdWgcZp2Bkg1U7xHUTa5FDGuIWuiRQaLIYh9YfYAg85fSRnK8SqETuAy9C9773/O7O9woT4YkKNvaOThCVqBfvT4R1FcL6Fuiz2vnKz3mwqKfnT59EWFMwv6Zg73OHr41M1JsyaBAhreBlocrXRC7KmE8rII+kV+gPR3w+ct0MR6As8qZ2xOdmJsoi/cHsd+eJssjUyJWOVS0FkYn4/iZkq4vBLVt4jULZzR922YSjkYmsO3/VvJ5K+QITdQPNcxPN8xYKDRmLdLKu4/IO6gDjpQxELY/21GKAyVkOYimDeFggXzT4kuNW6wAT9TySWgryN7b6F/Qq3flbyD5eoYBAF9slZ5c/7Xf3SBsHtrlomJh4pT0DSS2D7RN/r5BA7zfLo82+Nyz0OipELYeme/d6lgrxQxHfA7weDMSoZV+Q7Nn4/qiPLwK9wgFvg47UAjDGx1oKYq2FyY8iEpqMwlWwVyjgpblpX5p0p+eOsEBgYl+qHHY+vYBYMWBXBXj5Au/a4lSHUnlmwxYrf7eFB2T7Lmm5i/oX4H3jZxAvq9g5vfBvfA+IMZoGrVeh37hDQcD//ml7XT7gx2cmyiILjzfQ/z3kc5GrPxhiIbkBMrci4flukc9HruxuEbEVCWRuWUJsWcL7utPSs9C7ehuUQ4PElp7CC70d3T82T9STZfwBWJwEdy6iluoAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Billing'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="dc1598c2-5fbb-492f-97fb-92889b9ad09a" ContentHash="cqCTxaLReUGH6-CYNUhDqw" CvElementArea="12, 510, 61, 43" CvTextArea="28, 540, 28, 12" CvTextArgument="Billing" CvType="Button" DesignTimeRectangle="12, 511, 61, 42" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='Billing_menu' tag='A' /&gt;" Guid="bc0596a6-fda2-48f7-9bdf-8cff174f9354" InformativeScreenshot="fd9f6049265e90aeb8cc2e2c28bdba64.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/Q_A9YP_6tUq7YXoZZGzDXg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                        <uix:Target CVScreenId="dc1598c2-5fbb-492f-97fb-92889b9ad09a" CvElementArea="11, 552, 63, 45" CvType="Button" DesignTimeRectangle="12, 554, 61, 29" FullSelectorArgument="&lt;webctrl parentid='Analytics_menu' tag='I' /&gt;" Guid="dbff8d53-f089-4043-a79f-2937f2629dee" SearchSteps="Selector, CV" />
+                        <uix:Target CVScreenId="dc1598c2-5fbb-492f-97fb-92889b9ad09a" CvElementArea="12, 510, 61, 43" CvType="Button" DesignTimeRectangle="12, 511, 61, 29" FullSelectorArgument="&lt;webctrl parentid='Billing_menu' tag='I' /&gt;" Guid="4af2717a-1894-4e63-9a60-5149755ae6be" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Claims'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e09c0822-ab30-4feb-aedb-6580dce3c490" ContentHash="_RWhf6HWNkaOyTGAcpVT5Q" CvTextArea="126, 569, 39, 12" CvTextArgument="Claims" CvType="Text" DesignTimeRectangle="117, 567, 47, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl class='padl10' parentid='CLAIMS_BILLING' tag='SPAN' /&gt;" Guid="116713ae-bf7a-4983-8df8-4f4ab61e780b" InformativeScreenshot="f8a7dd99d7df8087cd9d6c20b33dd78e.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/IZKs3qDEQkifY3vjfAabRA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                        <uix:Target CVScreenId="e09c0822-ab30-4feb-aedb-6580dce3c490" CvElementArea="96, 566, 24, 22" CvType="Icon" DesignTimeRectangle="99, 568, 18, 18" FullSelectorArgument="&lt;webctrl parentid='CLAIMS_BILLING' tag='I' /&gt;" Guid="40e491a6-e84b-44da-a01a-665e85297bee" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHSSURBVEhLvZRbSwJREMf7Vj0HPQX1EkG9SBFBEYH0EhRoUHQVMrDoYheQgoiIIiqpRCpCxBS72MUyUzcr816hrToxJ/Zgu2vsUjbwZ9k95/zmzOzMlJSWV0AxVML/8Ff6f/DgqA4urt3gvvX8qPPLK+jVaAXnC4JnDIsQjkRh17wPmzt7ojIfHkE6nYZE8hUGtTppYLzxocUKDa1KwRqn7gENvL29AxofXhBc29gMqr4haO9SC9bEwGixeBw61D3iYHX/MPgCDORyOXogkUjC0uo6lFVVf9vb2NYOqxtbNCXoBJ0JwBgKhoSGYJvDCYGHIH232I4F8Pybi4Jr6pvA6/MTCMuy5IaYBoyACX7BU6k0jOnn5IF107PkIBpuGBmfhODjE7lpNpulabHaHfLAmCsurwja3jWBoqWNlNsHy1Kwx3svD7ywvAKZTIYC0EnoJUyKH3PN2Y3nTh4YSwv/Pho+sauisThMzRvAeeaizowmszww6uDIQg5j6Ngc6AwrgYvk6TkEyk6VfDA2hd15QnONBc/90Eg0KjoTJIE5jU7oyXDBVPgZBtY2jcQpf59sMKqyTiHaDGKSBZYy3fhTThJY6jzO16nrgg6tguDfqmjgT+/esLHzV8e2AAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+                        <uix:Target CVScreenId="e09c0822-ab30-4feb-aedb-6580dce3c490" CvTextArea="126, 545, 65, 12" CvTextArgument="Encounters" CvType="Text" DesignTimeRectangle="117, 543, 73, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='padl10' parentid='ENCOUNTERS_BILLING' tag='SPAN' type='' aaname='Encounters' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Encounters' /&gt;" Guid="55c914d2-cc5f-46d4-8e42-24636e2bad48" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,6839" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,6666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Claims(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="29cf8ba3-1c46-4e90-aa52-9ddb0dc2127f" ContentHash="eFb7aIsDFUKWGBC49BX97A" CvElementArea="82, 415, 72, 27" CvType="Button" DesignTimeRectangle="83, 417, 70, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimLookupBtn10' tag='BUTTON' /&gt;" Guid="01021949-5754-4053-8e06-ddc286431c7c" InformativeScreenshot="1cd11a1db5724625618e34751cc55056.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/ipaIou8Z9EqMe_dsGAPxpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="29cf8ba3-1c46-4e90-aa52-9ddb0dc2127f" CvElementArea="156, 415, 70, 27" CvType="Button" DesignTimeRectangle="158, 417, 67, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimLookupBtn17' tag='BUTTON' type='button' class='btn btn-default btn-xs btn-aquagrey dropdown-toggle' aaname='Billing                                 ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Billing' /&gt;" Guid="a32c1917-28e4-4b05-88fa-e9ac41837480" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create New Claim'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="acef2b2a-4b3c-4cea-88cf-ae09a075a669" ContentHash="76DeWWLkWkKnrO62Lmogtg" CvTextArea="103, 454, 92, 11" CvTextArgument="Create New Claim" CvType="Text" DesignTimeRectangle="84, 449, 131, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimLookupBtn11' tag='BUTTON' /&gt;" Guid="a924645c-b617-45ee-bf99-420c2d42377c" InformativeScreenshot="20ef30cece8c223a1d9f603f692c0bb6.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/IP7kGcbQlE2BTic6MjSVYg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="acef2b2a-4b3c-4cea-88cf-ae09a075a669" CvElementArea="81, 415, 73, 28" CvType="Button" DesignTimeRectangle="83, 417, 70, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimLookupBtn10' tag='BUTTON' type='button' class='btn btn-default btn-xs btn-aquagrey dropdown-toggle' aaname='Claims                                 ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Claims' /&gt;" Guid="6f087cca-5cf7-48be-8fb8-637401a9c28f" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Provider'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;Provider&quot;).ToString]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="c606feee-0c68-4b5b-ac22-b0141fd2cec4" ContentHash="kfFIhrzEFkmVY_a1yoTqiQ" CvElementArea="526, 268, 436, 26" CvType="InputBox" DesignTimeRectangle="527, 269, 402, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='provider-lookupIpt1_1400' tag='INPUT' type='text' class='no-cursory-check autocomplete-off-manual form-control patient-input clearable lookupinput zindexZero clsCreateClaimProvider ng-not-empty allowsmartnote_original' aaname='AVILA, INGRID' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="216777a1-dd02-45c6-9dc6-0739bbe626ec" InformativeScreenshot="7618bff27d7c2c87c4718783747714f3.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/Q5pABEu2pUuxvPtjiW60Lw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="c606feee-0c68-4b5b-ac22-b0141fd2cec4" CvTextArea="421, 271, 49, 11" CvTextArgument="Provider" CvType="Text" DesignTimeRectangle="423, 269, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' aaname='Provider' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Provider' /&gt;" Guid="4ac65d51-4b40-43f5-8056-7e9def1ce999" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'NASCIMENTO, FRANCISCO 6…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="bqVzmsK7DUqXjphiaE2Vsg" DesignTimeRectangle="528, 294, 438, 44" FullSelectorArgument="&lt;webctrl parentid='provider-lookupUl1' tag='DIV' /&gt;" Guid="b83d90a8-c5ff-47e9-b8c9-8f69c6b1356a" InformativeScreenshot="dce27921529237ef51bc4826828a1d72.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/GTXrl-ey10OdxX61CFFByQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Resource'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;Provider&quot;).ToString]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e29b8f07-f53d-43f2-92c0-d2b15292c073" ContentHash="fkF9Tgou3kySkry9N3dtuw" CvTextArea="529, 310, 150, 14" CvTextArgument="NASCIMENTO,FRANCISCO" CvType="Text" DesignTimeRectangle="527, 305, 401, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='resource-lookupIpt1' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookup-box autocomplete-off-manual ng-valid allowsmartnote_original ng-dirty ng-valid-parse ng-touched ng-not-empty x' placeholder='Enter Resource' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="93edc91b-f267-44e7-a86c-068ffe62b7c5" InformativeScreenshot="4858e4207c5788be3fd7d58836840e65.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/eAs35PwLlk2it1ZuJgHyJQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e29b8f07-f53d-43f2-92c0-d2b15292c073" CvTextArea="422, 307, 51, 11" CvTextArgument="Resource" CvType="Text" DesignTimeRectangle="423, 305, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Resource' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Resource' /&gt;" Guid="3b818942-2f1a-4c44-890c-a4512bda5ee3" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'NASCIMENTO,FRANCISCO'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="ae663ba3-6588-4246-95ee-6e0e24a9878a" ContentHash="139dDNq7X02RxRgK0iISPw" CvTextArea="758, 384, 145, 14" CvTextArgument="NASCIMENTO,FRANCISCO" CvType="Text" DesignTimeRectangle="752, 379, 208, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='resource-lookupUl1' tag='A' /&gt;" Guid="0d776789-1a31-4ef8-b284-5ec5befda580" InformativeScreenshot="04cdc74220e335d5d172fb872180eb11.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/_7AiD8jrsE2coGURocUePw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="ae663ba3-6588-4246-95ee-6e0e24a9878a" CvTextArea="759, 334, 57, 11" CvTextArgument="Resources" CvType="Text" DesignTimeRectangle="760, 332, 55, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='ml8' aaname='Resources' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Resources' /&gt;" Guid="976355fd-3191-48a5-ba13-8ed5cad98c08" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Service Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[DateTime.Parse(CurrentRow(&quot;TrainingDate&quot;).ToString).ToString(&quot;MM/dd/yyyy&quot;)]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="22ca50eb-04ca-4da2-9e08-a76834de74f7" ContentHash="B1oGWzdYC0uqQiWY5ObSPA" CvElementArea="525, 365, 411, 26" CvType="InputBox" DesignTimeRectangle="527, 366, 407, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimserviceDate' tag='INPUT' type='text' class='form-control only-date-time ng-pristine ng-untouched ng-valid ng-not-empty hasDatepicker allowsmartnote_original' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f3738c8c-2840-413f-8a4c-3af4fbfc20b3" ImageBase64="" InformativeScreenshot="9de42a35310d861fa7cb7b2d9bc358b1.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/dG1tG4Dex0a7b20OyYMFSw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="0f57d014-7869-4a20-88dd-ed12d7c2d2fa" CvTextArea="421, 368, 70, 11" CvTextArgument="Service Date" CvType="Text" DesignTimeRectangle="423, 366, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Service Date' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Service Date' /&gt;" Guid="76f1aaac-9324-4e4d-9a85-82dc7a788ea5" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Facility'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;facillity&quot;).ToString]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5520d2a5-ef26-4d2a-b855-70fddd2dcda2" ContentHash="y5l_h9rmTkKaa29zsC9Phw" CvElementArea="526, 334, 218, 26" CvType="InputBox" DesignTimeRectangle="527, 335, 184, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='facility-lookupIpt1-6833' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookupinput zindexAuto createClaimFacilityCls allowsmartnote_original ng-dirty ng-valid-parse ng-touched ng-empty' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f33a2e09-980e-4688-a5f6-ca0ef55aafb1" InformativeScreenshot="139d40c7f6963552f0ed489e263b02b0.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/M_1LKdlONU-aCkPP1bxAog" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="5520d2a5-ef26-4d2a-b855-70fddd2dcda2" CvTextArea="422, 337, 41, 13" CvTextArgument="Facility" CvType="Text" DesignTimeRectangle="423, 335, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Facility' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Facility' /&gt;" Guid="7382970c-3c45-4557-bcec-910890583627" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CFM RPM PATIENT'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="107a3489-8e99-4646-a1c0-9270ac4c3ab7" ContentHash="wrD1LnTQrUKTmq7yLVws0Q" CvTextArea="537, 366, 106, 12" CvTextArgument="CFM RPM PATIENT" CvType="Text" DesignTimeRectangle="538, 364, 105, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='facility-lookupUl1' tag='SPAN' /&gt;" Guid="c3416970-09f4-4742-9c4e-90558e4187d9" InformativeScreenshot="1d8063f189871975f2449449708e51b1.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/62MMn3BAsky0gST5_p4WTA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="107a3489-8e99-4646-a1c0-9270ac4c3ab7" CvTextArea="546, 387, 410, 11" CvTextArgument="6238 ATLANTIC AVE,DELRAY BEACH,FL,33484-3501 Code: CFM" CvType="Text" DesignTimeRectangle="538, 382, 418, 22" FullSelectorArgument="&lt;webctrl class='clearfix' parentid='facility-lookupUl1' tag='DIV' /&gt;" Guid="c97b70b3-9664-4674-bf0a-d26f0aa1b589" SearchSteps="Selector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Patient'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;LastName&quot;).ToString.Trim + &quot;,&quot; + CurrentRow(&quot;FirstName&quot;).ToString.Trim]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="20ab656d-c83e-4a5b-8022-2e49d247e903" ContentHash="D7zLQgH_HUCh8MOsTMBxdg" CvElementArea="526, 394, 250, 26" CvType="InputBox" DesignTimeRectangle="527, 395, 248, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ptLookup' name='patient_name_*' tag='INPUT' idx='2' /&gt;" Guid="470fba8a-f1ba-4321-9b43-2898b12b5dff" InformativeScreenshot="2ef97c0c5a1b8ebdfb4c1cf8e82f31a1.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/o4rtzJpPH0mY4KnQ8wr6tQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="20ab656d-c83e-4a5b-8022-2e49d247e903" CvTextArea="422, 397, 41, 11" CvTextArgument="Patient" CvType="Text" DesignTimeRectangle="423, 395, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Patient' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Patient' /&gt;" Guid="20216e99-21be-4d2c-8718-0f6127e15a8e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="Element 'Element 'LASHLEY, RICHARD M (86Y…''" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="jAcl8Ia4hUqk2pnnHfjgqA" DesignTimeRectangle="528, 420, 356, 44" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' parentid='patient-lookupUl1' tag='DIV' /&gt;" Guid="a55b7eb2-80eb-437d-86d8-042816ac2999" InformativeScreenshot="ea5c1e0d13a1aa2d06bcb4908ce12699.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/WxkTcUn8GUC763wHjV-4aw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                            </uix:VerifyExecutionTypeIntoOptions.Target>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NForEachUiElement DisplayName="For Each UiElement 'For Each UiElement'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="954,1005" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NForEachUiElement.Body>
+                          <ActivityAction x:TypeArguments="x:Int32">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="486,706" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <Sequence.Variables>
+                                <Variable x:TypeArguments="x:String" Name="uiText" />
+                              </Sequence.Variables>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign sap:VirtualizedContainerService.HintSize="452,115" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[uiText]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[CurrentElement.Get("innerText").ToString.Trim]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                              <ui:IfElseIfV2 Condition="[uiText.Contains(DateTime.Parse(CurrentRow(&quot;DOB&quot;).ToString.Trim).ToString(&quot;MM/dd/yyyy&quot;))]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="452,529" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                                <ui:IfElseIfV2.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </ui:IfElseIfV2.Else>
+                                <ui:IfElseIfV2.ElseIfs>
+                                  <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
+                                </ui:IfElseIfV2.ElseIfs>
+                                <ui:IfElseIfV2.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,259" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NClick_15" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V5">
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ui:IfElseIfV2.Then>
+                              </ui:IfElseIfV2>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NForEachUiElement.Body>
+                        <uix:NForEachUiElement.NextLink>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b7e60e94-56c3-414c-bef6-bc5efb62428e" CvElementArea="705, 623, 20, 21" CvType="ArrowButton" DesignTimeRectangle="706, 624, 20, 19" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div&amp;gt;table' id='patient-lookupTbl1' tag='TABLE' /&gt;&lt;webctrl id='patient-lookupLink2' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='patient-lookupTbl1' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='patient-lookupLink2' type='' tag='A' class='cursor icnext next-button-patients patientFilterForClaim ng-class:{&amp;apos;true&amp;apos;: &amp;apos;inactive&amp;apos;, &amp;apos;false&amp;apos;: &amp;apos;&amp;apos;}[inactiveNext] inactive' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd63a6e6-383f-4c16-b207-7709c1b06738" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NForEachUiElement.NextLink>
+                        <uix:NForEachUiElement.Target>
+                          <uix:TargetAnchorable BrowserURL="https://flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp#/mobiledoc/jsp/webemr/webpm/claimLookup.jsp" ContentHash="EmRKN7qxDEKeHSYf3TW1-Q" DesignTimeRectangle="527, 419, 358, 233" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl id='patient-lookupUl1' parentid='patientFilterForClaim' tag='UL' /&gt;" Guid="7eda8520-68c8-4c27-b04b-bbfb72dcc16c" InformativeScreenshot="44dee972162a9e30459dbbd5a16c48b0.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/gsUMbybCk0WrHlTH13jIfw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" />
+                        </uix:NForEachUiElement.Target>
+                        <uix:NForEachUiElement.Variables>
+                          <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                          <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
+                        </uix:NForEachUiElement.Variables>
+                        <uix:NForEachUiElement.VariablesMetadata>
+                          <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
+                            <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                            <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
+                          </scg:List>
+                        </uix:NForEachUiElement.VariablesMetadata>
+                      </uix:NForEachUiElement>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5a0c97ec-b7b3-4e95-a30a-adcc9fac2597" ContentHash="KbLA07wvD0CAF2vL1RjQQw" CvElementArea="838, 593, 61, 27" CvTextArea="860, 599, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="840, 594, 58, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='createClaimBtn' tag='BUTTON' /&gt;" Guid="020ed787-e093-41c8-89e0-81746b99d520" InformativeScreenshot="eade30cac865ea654d250e9ca13dd595.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/Y8SJzrvu60eW-yalfAJzVg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="5a0c97ec-b7b3-4e95-a30a-adcc9fac2597" CvElementArea="904, 592, 63, 27" CvTextArea="916, 599, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="906, 594, 60, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='createClaimBtn2' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs' aaname='Cancel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancel' /&gt;" Guid="c357cfcb-433b-40fb-98e2-8b0ade870de0" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NCheckState DisplayName="Comprobar el estado de la aplicación 'A claim already exists …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,533" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NCheckState.IfExists>
+                          <Sequence DisplayName="El objetivo aparece." sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d6337c16-d20e-42e8-9efd-8465d0882ef7" ContentHash="AvCW6z_1akS0rIS2WmLCFQ" CvElementArea="830, 471, 61, 27" CvTextArea="850, 477, 20, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="831, 472, 58, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='createClaimConfirmationBtn' tag='INPUT' /&gt;" Guid="3a6e026b-9a64-46fb-8763-8fa8deff3f2a" InformativeScreenshot="01c0f537bdcd3c0021ee1dd25035e213.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/2Lu8MKmMdk2aHnV-XDGpDQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="d6337c16-d20e-42e8-9efd-8465d0882ef7" CvElementArea="902, 471, 60, 26" CvTextArea="923, 477, 17, 12" CvTextArgument="No" CvType="Button" DesignTimeRectangle="903, 472, 58, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='createClaimIpt6' tag='INPUT' type='button' class='btn btn-xs btn-lgrey mr5 clsMyButton btnwd60' aaname='No' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='No' /&gt;" Guid="8e24f610-3e95-4d91-87d5-d65054e4d927" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </uix:NCheckState.IfExists>
+                        <uix:NCheckState.IfNotExists>
+                          <Sequence DisplayName="El objetivo no aparece." sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </uix:NCheckState.IfNotExists>
+                        <uix:NCheckState.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d6337c16-d20e-42e8-9efd-8465d0882ef7" ContentHash="j8FTVc4xBUGnR_t-Askqng" CvTextArea="421, 403, 379, 15" CvTextArgument="A claim already exists for this patient with the same Service Date." CvType="Text" DesignTimeRectangle="421, 403, 379, 15" ElementType="Text" Guid="d0fa2f88-6972-4336-9b94-bc054519c805" InformativeScreenshot="ffca33d1d849b77a2a31b6fb4cbe13de.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/jEjP6UtZZEKU1f7w0yvNeA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="d6337c16-d20e-42e8-9efd-8465d0882ef7" CvTextArea="802, 403, 146, 15" CvTextArgument="Are you sure you want to" CvType="Text" DesignTimeRectangle="802, 403, 146, 15" ElementType="Text" Guid="accadaae-73ab-4190-98dd-d4bb480b926f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NCheckState.Target>
+                      </uix:NCheckState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="126ead23-ac5c-4135-b1ac-9fd98e5e4505" ContentHash="lkoUKIYaNEe_W2ztMklZ1A" CvElementArea="420, 328, 36, 24" CvTextArea="427, 333, 24, 12" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="422, 329, 34, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimAddICDBtn*' tag='BUTTON' idx='1' /&gt;" Guid="f67cf708-4011-4a54-aad1-c657ad8058ed" ImageBase64="" InformativeScreenshot="ceb4c57dff8bd0d0e953a7668a50a8be.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/7qpdY45Dxk6_VzQ6Sb5XGQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="126ead23-ac5c-4135-b1ac-9fd98e5e4505" CvElementArea="356, 328, 57, 24" CvTextArea="363, 333, 44, 12" CvTextArgument="Prev Dx" CvType="Button" DesignTimeRectangle="358, 329, 54, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimPrevDxBtn1755880379574' tag='BUTTON' type='' class='btn btn-lgrey btn-xs pull-right' aaname='Prev Dx' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Prev Dx' /&gt;" Guid="fae81048-12bd-4459-ba32-2a4e15709c6b" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Etiqueta 'Etiqueta 'Search In''" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e24664f6-9723-490a-9b24-298b7e83b965" ContentHash="Pvczh7Y9Rki2XHyaLngEPA" CvTextArea="186, 171, 57, 12" CvTextArgument="Search In" CvType="Text" DesignTimeRectangle="188, 169, 58, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='idForCatBtn' tag='SPAN' /&gt;" Guid="0f09e1eb-59c3-4487-9369-c27a6bcc3a01" InformativeScreenshot="76dc92693bf792ab09dc1e99bee8af32.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/fyy_XBNHEkibcJrybgIVFw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CVScreenId="e24664f6-9723-490a-9b24-298b7e83b965" CvTextArea="245, 171, 74, 12" CvTextArgument="Assessments" CvType="Text" DesignTimeRectangle="246, 169, 73, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='searchTitle' tag='SPAN' type='' class='' aaname='Assessments' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Assessments' /&gt;" Guid="e5885235-d3ce-4020-aa07-abed96599724" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Search In'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="essential (primary)" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="cd7e9fbc-1ecf-46a5-a10a-825678570be1" ContentHash="izvy8ZpeEEmpEOLtdOXR5w" CvElementArea="330, 164, 301, 27" CvType="InputBox" DesignTimeRectangle="332, 165, 300, 25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='txtICDDescrDx' tag='INPUT' /&gt;" Guid="f0a128b7-86c8-41d7-b62f-73b66e1b4440" InformativeScreenshot="270a915afd536228a765365fadd5e51b.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/26cWIihEoE-tmZHIWn8yUw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="cd7e9fbc-1ecf-46a5-a10a-825678570be1" CvTextArea="186, 171, 57, 12" CvTextArgument="Search In" CvType="Text" DesignTimeRectangle="188, 169, 58, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='idForCatBtn' tag='SPAN' type='' class='blue-header' aaname=' Search In ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Search In' /&gt;" Guid="ebb76490-6919-4a1e-8dff-62cdbeeabd68" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I10'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="8dc644b4-e479-4de5-bf1a-3c308d5ee96a" ContentHash="QvckbBdxOEiXdESEYjXFbw" CvTextArea="217, 234, 19, 12" CvTextArgument="I10" CvType="Text" DesignTimeRectangle="218, 232, 17, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' /&gt;&lt;webctrl tableRow='5' tag='SPAN' /&gt;" Guid="c8489a82-c1b3-4c1e-8a47-e2e1f70e4e08" InformativeScreenshot="315a88e61f7d1d626b6699c896a4c1ad.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/eEOYwqDU_0yMhTdISWA7gQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                                <uix:Target CVScreenId="8dc644b4-e479-4de5-bf1a-3c308d5ee96a" CvTextArea="217, 234, 19, 12" CvTextArgument="I10" CvType="Text" DesignTimeRectangle="218, 226, 100, 30" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' class='ng-binding ng-scope' tag='TD' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I10' /&gt;" Guid="0948f4b1-58c3-4cf1-ba6b-02c05dacf180" SearchSteps="FuzzySelector, CV" />
+                                <uix:Target CVScreenId="8dc644b4-e479-4de5-bf1a-3c308d5ee96a" CvTextArea="225, 204, 28, 11" CvTextArgument="Code" CvType="Text" DesignTimeRectangle="217, 195, 99, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ICD_TreatmentTbl4' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Code' class='th-inner' type='' tag='DIV' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="9489cdd9-5bb5-43f3-a187-8898e33c8322" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="98e3b44d-e380-4fd0-a9a3-7b75995a4335" ContentHash="ngsSAcdJNkuaFfAejsxF6A" CvElementArea="1167, 130, 23, 25" CvType="CloseButton" DesignTimeRectangle="1168, 134, 20, 20" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ICD_TreatmentBtn1' tag='BUTTON' /&gt;" Guid="ab9f16c3-1d5f-421d-8369-0d73924fa6eb" InformativeScreenshot="2fb03acf10532796293c620dc4ad7cd5.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/9_f58lsZpUyCBdEPOPCiZA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="98e3b44d-e380-4fd0-a9a3-7b75995a4335" CvTextArea="1069, 137, 98, 15" CvTextArgument="Appt: (06/03/2025)" CvType="Text" DesignTimeRectangle="1071, 129, 95, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Appt: (06/03/2025) ' parentid='myModalLabel' tag='SPAN' type='' class='appt-caption pull-right mr15 ng-binding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Appt: (06/03/2025)' /&gt;" Guid="37028899-66a6-4dfd-8c61-6ab78c01f2a7" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'CPT/HCPCS (0)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[&quot;99453&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="fIR3M38UIEqru1n3rzAfxA" DesignTimeRectangle="108, 521, 51, 21" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1755880379574' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='billingClaimIpt34' type='text' tag='INPUT' class='editableTDText1755880379574 closable1755880379574 ng-pristine ng-untouched ng-valid ng-empty allowsmartnote_original' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3a78fd87-b82a-4222-9e2d-73f79fd58e02" InformativeScreenshot="142f92f587eb0c6ed910f35286d10904.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/EmV-IM65a0-Ky06CEHvbig" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                                <uix:Target CVScreenId="63fc1928-5894-440e-812b-43f078e35f9f" CvTextArea="112, 475, 96, 15" CvTextArgument="CPT/HCPCS (0)" CvType="Text" DesignTimeRectangle="83, 473, 124, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='icd1755880379574' tag='H4' class='blue-header pull-left ml30 ng-binding' aaname=' CPT/HCPCS (0)' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='CPT/HCPCS (0)' /&gt;" Guid="ca98054f-f157-4660-9f59-f81f7007647c" SearchSteps="FuzzySelector, CV" />
+                                <uix:Target CVScreenId="63fc1928-5894-440e-812b-43f078e35f9f" CvTextArea="65, 525, 8, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="54, 521, 30, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1755880379574' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='text-center' aaname='*' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='*' /&gt;" Guid="b18d391a-c5dc-4a62-b63f-e70658290bdb" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="Etiqueta 'Etiqueta 'Etiqueta''" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="39217915-37df-4462-8e85-04969cfc9e49" ContentHash="vmkmHYf0UU6BuZBrEf2VcA" CvTextArea="65, 526, 7, 12" CvTextArgument="1" CvType="Text" DesignTimeRectangle="66, 524, 6, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl id='claimCPTCodesTable*' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='SPAN' /&gt;" Guid="e26d7fb4-bc4e-48bb-a6a8-51a5c5a83a92" InformativeScreenshot="b8541c118aa2ea66574b2e29da1ed5ba.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/SsFF6pK-lEqpNS4Y4gPqjQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="39217915-37df-4462-8e85-04969cfc9e49" CvTextArea="64, 505, 9, 12" CvTextArgument="#" CvType="Text" DesignTimeRectangle="54, 502, 30, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimCPTCodesTable1756127149242' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TH' class='text-center' aaname='#' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='#' /&gt;" Guid="ba5f07be-491e-429e-9196-e4b82a6a278a" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:VerifyExecutionTypeIntoOptions.Target>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Claim Status'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,251" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[&quot;2025&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="d85bbe10-9432-49aa-81e6-ecd5732e1c3a" ContentHash="V-qQNBKhN0eE2qpicULE4A" CvElementArea="820, 256, 185, 24" CvType="InputBox" DesignTimeRectangle="822, 257, 182, 21" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1755883559539' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='claimStatusSel1755883559539' type='' tag='SELECT' class='form-control input-sm ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e4290094-cb20-49c5-80b1-576acb8ef64e" InformativeScreenshot="6ba222921c29bf3006a46f52c01e1014.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/bfx2VA3GaUuhhpY-IUhemQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="d85bbe10-9432-49aa-81e6-ecd5732e1c3a" CvTextArea="747, 263, 67, 11" CvTextArgument="Claim Status" CvType="Text" DesignTimeRectangle="712, 261, 102, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='claimProviderLookupTbl1755883559539' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Claim Status ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Claim Status' /&gt;" Guid="05519a0b-0ed9-4e59-ab81-6df766352108" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e51afa15-d857-4d0d-839e-3c4daa3525ca" ContentHash="ULyojkGs30G0_69OU10LlA" CvElementArea="183, 694, 78, 25" CvTextArea="194, 700, 40, 15" CvTextArgument="Option" CvType="Button" DesignTimeRectangle="184, 696, 75, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='billingClaimBtn30' tag='BUTTON' /&gt;" Guid="a75f5036-3b38-4eac-90d9-0a58a10c4df4" InformativeScreenshot="827c7e9b94f575af18f5a9d34985df5e.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/vjtNYyp0A02WMSR2SiHc_w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e51afa15-d857-4d0d-839e-3c4daa3525ca" CvElementArea="268, 695, 36, 24" CvType="Button" DesignTimeRectangle="280, 700, 12, 12" FullSelectorArgument="&lt;webctrl parentid='billingClaimBtn33' tag='SPAN' /&gt;" Guid="e5b18f30-f86d-46c0-bb38-7c0b6853a22f" SearchSteps="Selector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="Element 'Element 'UL billingClaimUl5''" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="ce8d2c01-f66c-4d81-8006-47e71f0073d8" ContentHash="LDEBw-NK60O_EtaLZWJvcA" CvTextArea="204, 672, 61, 14" CvTextArgument="My Settings" CvType="Text" DesignTimeRectangle="185, 667, 245, 22" ElementType="ListItem" FullSelectorArgument="&lt;webctrl idx='17' parentid='billingClaimUl5' tag='LI' /&gt;" Guid="76355470-f45d-4478-850c-6ff100505ee7" InformativeScreenshot="8ea7f6027e83d6adf008142b852d56be.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/1eM80HCaa0KlD-nFHwPA3g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="ce8d2c01-f66c-4d81-8006-47e71f0073d8" CvTextArea="204, 672, 61, 14" CvTextArgument="My Settings" CvType="Text" DesignTimeRectangle="185, 667, 99, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='billingClaimBtn32' tag='BUTTON' type='' class='' aaname='My Settings' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='My Settings' /&gt;" Guid="090c3673-12f8-4c79-9952-0e8569921118" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete Claim'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="f7da4791-1aee-48de-8436-b4ffe77a2d6d" ContentHash="g55BeA4iUU-Lq8dQQaO81A" CvTextArea="204, 564, 66, 11" CvTextArgument="Delete Claim" CvType="Text" DesignTimeRectangle="185, 559, 105, 21" ElementType="Button" FullSelectorArgument="&lt;webctrl id='mnuDeleteClaim*' tag='BUTTON' /&gt;" Guid="1984aa9f-fa1f-4021-815b-2eea683661ff" InformativeScreenshot="de8e3a0e2e84f2448b60407b130de179.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/GPrPvXj3qE6IH261cHAt2w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="f7da4791-1aee-48de-8436-b4ffe77a2d6d" CvTextArea="204, 564, 66, 11" CvTextArgument="Delete Claim" CvType="Text" DesignTimeRectangle="185, 559, 245, 21" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' parentid='billingClaimUl5' tag='LI' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Delete Claim' /&gt;" Guid="c869ed8e-7b80-4d45-8243-e349c5b15cca" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="954,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Yes(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,181" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="fa99704c-c5bb-4ea1-9cd9-aee60a3535a8" ContentHash="szjCwP1lukmjmkK2phL_nA" CvElementArea="879, 452, 43, 26" CvTextArea="889, 458, 21, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="880, 453, 41, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Yes' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' type='button' /&gt;" Guid="dc7147fb-c018-4148-b83d-abe0c9b14bb3" InformativeScreenshot="fefae51f3893fc0d8eefdc705d22e9c2.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/5-xHwHYirk-eomLtuDSL0w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="fa99704c-c5bb-4ea1-9cd9-aee60a3535a8" CvElementArea="925, 452, 40, 26" CvTextArea="936, 458, 17, 12" CvTextArgument="No" CvType="Button" DesignTimeRectangle="926, 453, 38, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='No' class='btn btn btn-lgrey btn-xs btn-default btn-no' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='No' /&gt;" Guid="fd9d6992-3fa5-40ff-a650-4e077efcb3b6" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1374, -8, 1382, 736" BrowserType="Edge" ContentHash="-s9YkcHGBEu8F8PfLgUWDQ" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="8103e28fec0fa6eb6d5a938687e00627.jpg" Reference="LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA" Selector="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" Url="https://flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

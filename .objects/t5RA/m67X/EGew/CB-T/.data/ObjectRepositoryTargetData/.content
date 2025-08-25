@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CA7MVSqmqkG2cKUD_i2IoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="f0751b1c-63d6-4925-a4a8-4214d77e151a" CvElementArea="1341, 15, 20, 19" CvType="CloseButton" DesignTimeRectangle="1328, 8, 46, 34" ElementType="Button" FullSelectorArgument="&lt;ctrl name='eCW (Madrid, Daniel ) - Microsoft Edge - Perfil 1' role='pane' /&gt;&lt;ctrl name='Cerrar' role='push button' /&gt;" Guid="4d719899-ab90-4fb9-a203-b02cd8fa9ab3" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='eCW (Madrid, Daniel ) - Perfil 1: Microsoft​ Edge' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f0751b1c-63d6-4925-a4a8-4214d77e151a" CvElementArea="1295, 14, 20, 20" CvType="MaximizeButton" DesignTimeRectangle="1282, 8, 46, 34" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='eCW (Madrid, Daniel ) - Microsoft Edge - Perfil 1' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Restaurar' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Restaurar' /&gt;" Guid="8048a372-c287-4841-9df2-68660f686adc" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="f0751b1c-63d6-4925-a4a8-4214d77e151a" CvElementArea="1248, 14, 23, 19" CvType="MinimizeButton" DesignTimeRectangle="1236, 8, 46, 34" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='eCW (Madrid, Daniel ) - Microsoft Edge - Perfil 1' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Minimizar' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Minimizar' /&gt;" Guid="2186d8c9-8e9e-4d2c-bc3d-83cb9d2f11fb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5581315585f9743e1b12ca64bf360d97.png" xmlns="">0EVln-AvCOUm6q7f_No2f6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

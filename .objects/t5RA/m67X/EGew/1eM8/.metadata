@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Element 'UL billingClaimUl5'",
+  "Type": "Element",
+  "TaxonomyType": "Listbox",
+  "Id": "1eM80HCaa0KlD-nFHwPA3g",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/1eM80HCaa0KlD-nFHwPA3g",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-25T12:45:39.3699798Z",
+  "Updated": "2025-08-25T12:45:39.3699798Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

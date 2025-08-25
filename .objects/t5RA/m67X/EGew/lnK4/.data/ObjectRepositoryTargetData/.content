@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xKv8sYA44kiICl6120849w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b734b544-c3d9-44eb-9133-203f9a3e5772" CvElementArea="11, 125, 62, 42" CvType="Button" DesignTimeRectangle="31, 139, 23, 15" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" Guid="226f913b-2267-434b-b6d0-edd77d7bbb6f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b734b544-c3d9-44eb-9133-203f9a3e5772" CvElementArea="74, 128, 45, 37" CvType="Icon" DesignTimeRectangle="81, 137, 24, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='jellybean-panelLink6' tag='SPAN' type='' class='ng-binding' aaname='DM' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DM' /&gt;" Guid="65290acb-8228-4a8c-800a-a9816457fe3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAXCAYAAAAYyi9XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIuSURBVEhLvZa9a9tAGMbvb3GWaMvQQVM2/wOekgyZ3MlO6qJCXUq0BEVQsjhQl0wdWgcZp2Bkg1U7xHUTa5FDGuIWuiRQaLIYh9YfYAg85fSRnK8SqETuAy9C9773/O7O9woT4YkKNvaOThCVqBfvT4R1FcL6Fuiz2vnKz3mwqKfnT59EWFMwv6Zg73OHr41M1JsyaBAhreBlocrXRC7KmE8rII+kV+gPR3w+ct0MR6As8qZ2xOdmJsoi/cHsd+eJssjUyJWOVS0FkYn4/iZkq4vBLVt4jULZzR922YSjkYmsO3/VvJ5K+QITdQPNcxPN8xYKDRmLdLKu4/IO6gDjpQxELY/21GKAyVkOYimDeFggXzT4kuNW6wAT9TySWgryN7b6F/Qq3flbyD5eoYBAF9slZ5c/7Xf3SBsHtrlomJh4pT0DSS2D7RN/r5BA7zfLo82+Nyz0OipELYeme/d6lgrxQxHfA7weDMSoZV+Q7Nn4/qiPLwK9wgFvg47UAjDGx1oKYq2FyY8iEpqMwlWwVyjgpblpX5p0p+eOsEBgYl+qHHY+vYBYMWBXBXj5Au/a4lSHUnlmwxYrf7eFB2T7Lmm5i/oX4H3jZxAvq9g5vfBvfA+IMZoGrVeh37hDQcD//ml7XT7gx2cmyiILjzfQ/z3kc5GrPxhiIbkBMrci4flukc9HruxuEbEVCWRuWUJsWcL7utPSs9C7ehuUQ4PElp7CC70d3T82T9STZfwBWJwEdy6iluoAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba8229a885c5fb0747b589698c7b3ea0.png" xmlns="">03RidJoWrXkmlb_trEbQkBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

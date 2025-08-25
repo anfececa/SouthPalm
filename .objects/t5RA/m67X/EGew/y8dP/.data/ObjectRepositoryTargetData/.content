@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FzDgJ2oyiEWC6A_-9Ylm8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/login/newLogin.jsp" DesignTimeRectangle="62, 346, 320, 40" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='doctorID' tag='INPUT' type='text' class='form-control login-box clearable' aaname='Enter username to continue' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="17ff0075-aff7-4661-b531-108e5682a0a9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Web EMR Login Page' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8586ac53-61cd-41b9-945d-ada1b279a6f8" CvElementArea="60, 455, 323, 43" CvTextArea="207, 470, 30, 13" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="62, 456, 320, 42" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='nextStep' tag='INPUT' type='submit' class='btn btn-emr btn-sm agentButton' aaname='Next' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Next' /&gt;" Guid="37dcb61d-8784-4b85-bc12-1dbcc73eae38" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="978736ae429c937744e3c9d67ce0e5b1.png" xmlns="">0rRkNpvuQek-Sc_xqgM4W2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

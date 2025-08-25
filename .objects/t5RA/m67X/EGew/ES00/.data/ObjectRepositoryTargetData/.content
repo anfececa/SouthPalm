@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5rCoM0vaIk6m46nHtxDDKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="0d0ac304-a79c-4166-aea4-bc4b99b842e9" CvElementArea="526, 394, 250, 26" CvType="InputBox" DesignTimeRectangle="527, 395, 248, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ptLookup' name='patient_name_1579' tag='INPUT' /&gt;" Guid="2172f59b-36e0-4ff7-8290-730b82be41b7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0d0ac304-a79c-4166-aea4-bc4b99b842e9" CvTextArea="422, 397, 41, 11" CvTextArgument="Patient" CvType="Text" DesignTimeRectangle="423, 395, 89, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Patient' parentid='pn-createclaim' tag='LABEL' type='' class='col-sm-2 control-label nopadding' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Patient' /&gt;" Guid="167300a9-59d0-4d1a-814b-ffb33bb454dd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="520720a43fed2ca1693eef60b99653fa.png" xmlns="">0fhmKsYnXA0GTtFh13yMlHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

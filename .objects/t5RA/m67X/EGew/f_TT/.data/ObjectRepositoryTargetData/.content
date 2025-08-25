@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8tFzaWC6sUiiglTxjow7Pw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="6e961590-3f75-4764-81cc-597cc3ac8fc5" CvElementArea="11, 126, 62, 43" CvType="Button" DesignTimeRectangle="31, 140, 23, 15" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" Guid="353b0c3a-9c94-44d3-ae61-6a0a86816793" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e961590-3f75-4764-81cc-597cc3ac8fc5" CvElementArea="11, 126, 62, 43" CvType="Button" DesignTimeRectangle="12, 128, 61, 40" FullSelectorArgument="&lt;webctrl id='jellybean-panelLink4' tag='A' /&gt;" Guid="d7dbcb0b-90e3-4888-87f6-b4c0e962d8a7" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a277143e83a3a9af15e48f6c8743690.png" xmlns="">0G6lu-Yd1H0ijh0w40uUXMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lkoUKIYaNEe_W2ztMklZ1A" Reference="LIqL7-3VC0m0ArjBSxIv3g/7qpdY45Dxk6_VzQ6Sb5XGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="126ead23-ac5c-4135-b1ac-9fd98e5e4505" CvElementArea="420, 328, 36, 24" CvTextArea="427, 333, 24, 12" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="422, 329, 34, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimAddICDBtn*' tag='BUTTON' idx='1' /&gt;" Guid="f67cf708-4011-4a54-aad1-c657ad8058ed" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="126ead23-ac5c-4135-b1ac-9fd98e5e4505" CvElementArea="356, 328, 57, 24" CvTextArea="363, 333, 44, 12" CvTextArgument="Prev Dx" CvType="Button" DesignTimeRectangle="358, 329, 54, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimPrevDxBtn1755880379574' tag='BUTTON' type='' class='btn btn-lgrey btn-xs pull-right' aaname='Prev Dx' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Prev Dx' /&gt;" Guid="fae81048-12bd-4459-ba32-2a4e15709c6b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ceb4c57dff8bd0d0e953a7668a50a8be.png" xmlns="">0HbE9VNa8KEGj4S7BeweINg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
