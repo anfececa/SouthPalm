@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nw5ejaU8RUeHWuATQnbmzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b8e0fe46-b720-4728-bf05-d9b1349597ec" CvElementArea="1249, 695, 63, 24" CvTextArea="1261, 700, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1251, 696, 60, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='billingClaimBtn36' tag='BUTTON' /&gt;" Guid="8d406516-692c-4cca-9674-5f5b9aa36a84" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b8e0fe46-b720-4728-bf05-d9b1349597ec" CvElementArea="1177, 695, 60, 24" CvTextArea="1198, 700, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1178, 696, 58, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimScreenOkBtn1756309511668' tag='BUTTON' type='button' class='btn btn-blue btn-sm btn-xs pull-right mr10 btnwd60' aaname='OK' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='OK' /&gt;" Guid="3d285271-42d8-496e-96fa-22510de953da" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6decd0aec15ed60a7319aaca45d4feb6.png" xmlns="">0TwS36hSrBUmAVfg-ikDKoA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

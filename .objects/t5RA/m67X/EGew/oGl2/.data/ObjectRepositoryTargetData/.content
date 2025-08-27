@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uSYhRh7hV0-t-dvMnfchkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b074f580-1353-421d-8313-da86724136da" CvElementArea="879, 453, 43, 26" CvTextArea="889, 459, 21, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="891, 457, 7, 17" FullSelectorArgument="&lt;webctrl aaname='Y' idx='2' tag='U' /&gt;" Guid="29de8840-db7a-4b20-a44b-cdcb3574f2e5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b074f580-1353-421d-8313-da86724136da" CvElementArea="879, 453, 43, 26" CvTextArea="889, 459, 21, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="880, 454, 41, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Yes' class='btn btn btn-lblue btn-lgrey btn-xs btn-default btn-yes' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Yes' /&gt;" Guid="1811df73-41a2-4b69-b08a-707027bdf1ed" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c0f8d951a6b5b5b73b347928bd59882.png" xmlns="">0AjxN8S4WlUCSV_FndDaa5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

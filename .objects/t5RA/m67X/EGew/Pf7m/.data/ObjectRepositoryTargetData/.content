@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TP7GQawx9EWS2jG-8gdnwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="9167e7bd-683f-4310-9090-b8eaefa0743f" CvElementArea="951, 225, 23, 25" CvType="CloseButton" DesignTimeRectangle="953, 229, 20, 20" ElementType="Button" FullSelectorArgument="&lt;webctrl id='createClaimBtn1' tag='BUTTON' /&gt;" Guid="78b5b0bb-e05e-4edb-a654-00f2c3154a0c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9167e7bd-683f-4310-9090-b8eaefa0743f" CvElementArea="951, 225, 23, 25" CvTextArea="416, 231, 85, 14" CvTextArgument="Create Claim" CvType="CloseButton" DesignTimeRectangle="418, 224, 548, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='myModalLabel' parentid='pn-createclaim' tag='H4' type='' class='modal-title' aaname='Create Claim' matching:id='fuzzy' fuzzylevel:id='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Create Claim' /&gt;" Guid="75a60b64-19c5-421a-8df2-c15469de9333" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a4f1cc6e5f25be47574bb6e585bcf590.png" xmlns="">0Ls7VyzYFPUqOLL9nM9PjMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Please select the Patie…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "VneteuSn6kSnnGoSgDQlwQ",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/VneteuSn6kSnnGoSgDQlwQ",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-26T15:01:17.1186357Z",
+  "Updated": "2025-08-26T15:01:17.1186357Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

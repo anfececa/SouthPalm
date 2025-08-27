@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="beQa29IlTk6moHCrtCh10w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvElementArea="879, 453, 43, 26" CvTextArea="889, 459, 21, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="880, 454, 41, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Yes' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' type='button' /&gt;" Guid="7472c868-a896-451c-8cf2-8b3282e53fdb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvTextArea="420, 412, 400, 12" CvTextArgument="99458 code already exists 1 times. Do you want to add this code again ?" CvType="Text" DesignTimeRectangle="406, 395, 568, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='bootbox-body pad15' isleaf='1' tag='DIV' aaname='99458 code already exists 1 times.   Do you want to add this code again ?' matching:class='fuzzy' fuzzylevel:class='0.0' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='99458 code already exists 1 times. Do you want to add this code again ?' /&gt;" Guid="80c351b2-4b87-4a5e-a799-3c8a364ed023" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvElementArea="925, 453, 40, 26" CvTextArea="936, 459, 17, 13" CvTextArgument="No" CvType="Button" DesignTimeRectangle="926, 454, 38, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='No' class='btn btn btn-lgrey btn-xs btn-default btn-no' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='No' /&gt;" Guid="85dbc77d-b61c-4fc9-914a-d5cb35a4873b" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvElementArea="949, 366, 24, 26" CvType="CloseButton" DesignTimeRectangle="951, 370, 20, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='×' class='close' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='×' /&gt;" Guid="8970a160-462e-42ab-acb7-d753b9b93c86" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb213c1bfd9055426aa37aa418653fd6.png" xmlns="">0kOGMWgBty0yWgka1UaTs7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

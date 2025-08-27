@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Are you sure you want t…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "_NS9QpZlHUGttHaODwBvVg",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/_NS9QpZlHUGttHaODwBvVg",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-26T17:10:51.8978147Z",
+  "Updated": "2025-08-26T17:10:51.8978147Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

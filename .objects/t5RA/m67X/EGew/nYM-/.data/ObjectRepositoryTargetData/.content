@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tG9u_LCqCkq2gF-Rjwx_ZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvTextArea="420, 412, 400, 12" CvTextArgument="99458 code already exists 1 times. Do you want to add this code again ?" CvType="Text" DesignTimeRectangle="406, 395, 568, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='7' isleaf='1' tag='DIV' /&gt;" Guid="47f261af-32ca-4039-ac68-4507f150107f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvElementArea="879, 453, 43, 26" CvTextArea="889, 459, 21, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="880, 454, 41, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Yes' class='btn btn btn-lblue btn-lgrey btn-xs btn-default btn-yes' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Yes' /&gt;" Guid="072f5593-b30c-49f5-a312-b088f0e8807d" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvElementArea="925, 453, 40, 26" CvTextArea="936, 459, 17, 13" CvTextArgument="No" CvType="Button" DesignTimeRectangle="926, 454, 38, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='No' class='btn btn btn-lgrey btn-xs btn-default btn-no' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='No' /&gt;" Guid="998f4594-98d9-4bfb-bdc8-598d8236c016" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="4ba55108-d101-47ba-8e07-114c90bb245c" CvElementArea="949, 366, 24, 26" CvType="CloseButton" DesignTimeRectangle="951, 370, 20, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='×' class='close' tag='BUTTON' type='button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='×' /&gt;" Guid="1896564a-f5ae-47be-9f47-424664ed8da1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8019e7989ebb54373b159483e84c25d1.png" xmlns="">0_pMVBbDTkEKKF_5BTyw6rg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

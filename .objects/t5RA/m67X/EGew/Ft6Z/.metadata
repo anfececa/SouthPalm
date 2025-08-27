@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Claims(2)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Ft6Zbg9T9EaS-WoQmWwsuQ",
+  "Reference": "LIqL7-3VC0m0ArjBSxIv3g/Ft6Zbg9T9EaS-WoQmWwsuQ",
+  "ParentRef": "LIqL7-3VC0m0ArjBSxIv3g/EGewalLLy0Od8vYOT45WhA",
+  "Created": "2025-08-26T15:05:31.5249943Z",
+  "Updated": "2025-08-26T15:05:31.5249943Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

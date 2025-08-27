@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fd0ZfgS-MUiJcPfYLXHhjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="286ebd8a-6454-4139-aa44-5df4134103da" CvTextArea="422, 412, 145, 12" CvTextArgument="Please select the Patient." CvType="Text" DesignTimeRectangle="408, 395, 568, 48" ElementType="Text" FullSelectorArgument="&lt;webctrl class='ng-binding' parentid='createClaimAlertMessage' tag='DIV' /&gt;" Guid="77984172-75e5-4caa-89b3-a7cdc4991960" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="286ebd8a-6454-4139-aa44-5df4134103da" CvTextArea="416, 362, 85, 14" CvTextArgument="Create Claim" CvType="Text" DesignTimeRectangle="418, 355, 548, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='myModalLabel' parentid='createClaimAlertMessage' tag='H4' type='' class='modal-title' aaname='Create Claim' matching:id='fuzzy' fuzzylevel:id='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Create Claim' /&gt;" Guid="2d22265f-7ffe-4bba-9bc1-68ba5c19c57d" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="286ebd8a-6454-4139-aa44-5df4134103da" CvElementArea="920, 462, 42, 27" CvTextArea="932, 469, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="922, 464, 39, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='deleteBtn' parentid='createClaimAlertMessage' tag='INPUT' type='button' class='btn btn-xs btn-blue mr5 clsMyButton' aaname='OK' matching:id='fuzzy' fuzzylevel:id='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='OK' /&gt;" Guid="92863696-00da-463b-b585-730080772284" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="16f5a109b50f2bfb363fce0fd4836cea.png" xmlns="">0hhALGesEF0yA_8mk5Y9agg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
