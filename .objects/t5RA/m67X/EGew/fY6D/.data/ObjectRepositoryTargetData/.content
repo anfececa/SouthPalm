@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="i7Xj__G1kUuumdyPk3S5jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="a1d55e72-8875-408f-94d1-771bef6d51b3" CvType="AnyWordGroup" DesignTimeRectangle="1001, 613, 29, 15" ElementType="Text" FullSelectorArgument="&lt;webctrl id='billingClaimTbl15' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='SPAN' /&gt;" Guid="0c113b06-240d-4927-972d-d88553a82760" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a1d55e72-8875-408f-94d1-771bef6d51b3" CvTextArea="843, 615, 43, 14" CvTextArgument="Charges" CvType="Text" DesignTimeRectangle="843, 615, 43, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='billingClaimTbl15' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Charges' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Charges' /&gt;" Guid="c2097dba-da5f-4f09-85b8-8a812d3d05d7" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="a1d55e72-8875-408f-94d1-771bef6d51b3" CvTextArea="842, 590, 31, 12" CvTextArgument="Total" CvType="Text" DesignTimeRectangle="842, 590, 31, 12" ElementType="Text" Guid="2be0416e-961f-4911-9d01-0b28c27b014b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="a1d55e72-8875-408f-94d1-771bef6d51b3" CvTextArea="1000, 615, 30, 11" CvTextArgument="79.58" CvType="Text" DesignTimeRectangle="1000, 615, 30, 11" FuzzySelectorArgument="&lt;webctrl id='billingClaimTbl15' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='text-right' type='' tag='TD' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='79.58' /&gt;" Guid="a2b8e5d1-22ba-427d-9c33-ea097252994a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f8c2895216b5803349c0f7d98ba54720.png" xmlns="">0p8O86I8N10mFXczTDZARTw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
