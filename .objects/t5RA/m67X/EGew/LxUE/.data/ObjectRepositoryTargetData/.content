@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mCw3B5MVJU23vLQNue8-xw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e45fcf03-5e7e-4f80-8d49-c4d4110fe407" CvTextArea="419, 412, 262, 14" CvTextArgument="Are you sure you want to change the provider?" CvType="Text" DesignTimeRectangle="406, 395, 568, 47" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='7' isleaf='1' tag='DIV' /&gt;" Guid="b8d57f02-588b-479f-a0f6-fde8739e1172" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e45fcf03-5e7e-4f80-8d49-c4d4110fe407" CvElementArea="949, 366, 24, 26" CvTextArea="415, 372, 96, 14" CvTextArgument="eClinicalWorks" CvType="CloseButton" DesignTimeRectangle="416, 365, 548, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='modal-title' type='' aaname='eClinicalWorks' isleaf='1' tag='H4' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' check:innerText='eClinicalWorks' /&gt;" Guid="8660c537-1804-42aa-ab06-5663c557302a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a977afb957bb80d7ea9e4a7b67140033.png" xmlns="">0uHTnwSjzpU-xNBz6XZtXyA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

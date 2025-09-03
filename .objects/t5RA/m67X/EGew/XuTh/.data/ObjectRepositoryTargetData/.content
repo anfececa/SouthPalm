@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Msvt0DHGM0uYzWeS9rN3Xw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="783f277c-18da-44fd-b4b1-d892f75a1f5d" CvElementArea="1055, 689, 60, 24" CvTextArea="1075, 695, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1056, 691, 58, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimDataBtn13' tag='BUTTON' /&gt;" Guid="e796b3b6-14ff-455b-8d71-8dfb44dcb608" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="783f277c-18da-44fd-b4b1-d892f75a1f5d" CvElementArea="1118, 690, 51, 24" CvTextArea="1124, 695, 38, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1119, 691, 49, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimDataCancelBtn' tag='BUTTON' type='' class='btn btn-lgrey btn-xs pull-right mr5' aaname='Cancel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancel' /&gt;" Guid="5880bfa8-f5b8-421f-8d90-bdf2409d6e6f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3cf6fd7cdefe0e00e608766342dddff3.png" xmlns="">0BIUDvBB-dEqr7NuCGI9dJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="umq-yig56UiI0gFYgh-evA" Reference="LIqL7-3VC0m0ArjBSxIv3g/S43sZ5dm1UyruqBgjCUWUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="825ab8aa-18dc-4db0-ba01-8ab4f88d8338" CvElementArea="125, 695, 50, 25" CvTextArea="136, 700, 27, 12" CvTextArgument="Data" CvType="Button" DesignTimeRectangle="126, 696, 48, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimDataBtn*' tag='BUTTON' /&gt;" Guid="17ecf68e-c792-41c8-8d1d-0b8eed78359e" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="825ab8aa-18dc-4db0-ba01-8ab4f88d8338" CvElementArea="47, 695, 65, 24" CvTextArea="58, 700, 43, 12" CvTextArgument="Header" CvType="Button" DesignTimeRectangle="48, 696, 63, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimHeaderBtn1756909522014' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs pull-left mr10' aaname='Header' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Header' /&gt;" Guid="2fdd9a9c-dd5e-4d1e-8329-06e66e223160" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="825ab8aa-18dc-4db0-ba01-8ab4f88d8338" CvElementArea="183, 695, 77, 25" CvTextArea="194, 700, 40, 15" CvTextArgument="Option" CvType="Button" DesignTimeRectangle="184, 696, 75, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='billingClaimBtn30' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs' aaname='Option ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Option' /&gt;" Guid="fbfa69ab-75a4-4191-bfa2-4f5aa57264a3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2de766d1d658320ca2d1ad229ca0d714.png" xmlns="">03rRCvZnmb02moaMQgtwj5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

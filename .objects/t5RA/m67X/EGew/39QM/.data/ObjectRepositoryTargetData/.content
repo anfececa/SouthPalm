@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2ydfnWhB5UeoMwt4WVyZHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="a8db63a2-73ad-4dc4-885e-2691531ff8e3" CvElementArea="242, 207, 202, 25" CvType="InputBox" DesignTimeRectangle="243, 208, 200, 23" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ReferringProvidersTbl1' tag='TABLE' /&gt;&lt;webctrl id='ReferringProvidersIpt1' tableRow='1' tag='INPUT' /&gt;" Guid="9e25d49e-6bc3-47a9-aa22-fa72e7100065" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a8db63a2-73ad-4dc4-885e-2691531ff8e3" CvElementArea="242, 207, 202, 25" CvTextArea="199, 213, 36, 12" CvTextArgument="Name" CvType="InputBox" DesignTimeRectangle="200, 208, 470, 23" FuzzySelectorArgument="&lt;webctrl id='ReferringProvidersTbl1' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Name : ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Name :' /&gt;" Guid="63790280-0d02-49c2-ae89-dd00f0af99c3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a1b7ad0637036db665f31dbab6ffa103.png" xmlns="">0o3evyCULNEG81DMvAlMPCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

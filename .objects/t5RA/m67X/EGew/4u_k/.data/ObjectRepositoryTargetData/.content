@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="isEezaMMOkmMoXtT7Z29Dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b65d4f7f-c74e-41a2-b3db-0689820c8379" CvTextArea="205, 283, 118, 14" CvTextArgument="METZGER,MICHAEL L" CvType="Text" DesignTimeRectangle="202, 276, 482, 26" FullSelectorArgument="&lt;webctrl id='ReferringProvidersTbl2' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TD' /&gt;" Guid="a8bb3107-6d8c-48c7-afb2-a6779465a67c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b65d4f7f-c74e-41a2-b3db-0689820c8379" CvTextArea="205, 256, 36, 12" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="202, 250, 482, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ReferringProvidersTbl2' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TH' class='' aaname='Name' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Name' /&gt;" Guid="1dc358b1-a9ee-4ce7-9445-db74a5e78952" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4649ac7cb85a0589286e9ee752492adf.png" xmlns="">0HwM0Wa6-XE-t7DFqDmYuOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

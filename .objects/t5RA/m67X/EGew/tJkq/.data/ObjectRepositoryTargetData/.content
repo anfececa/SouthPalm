@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="vLsofJkPNEyRuetTFlf14w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="KIif_5DAM0KjzCqZD896Pw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5dc41166-457e-41dc-b380-e4a12bd41823" CvElementArea="914, 472, 41, 26" CvTextArea="925, 478, 18, 12" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="915, 473, 38, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Ok' parentid='providerLicense' tag='BUTTON' /&gt;" Guid="c85932eb-2203-48fb-bb35-d435c056d632" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="5dc41166-457e-41dc-b380-e4a12bd41823" CvTextArea="458, 392, 238, 12" CvTextArgument="License expired for provider Blocker, Dana" CvType="Text" DesignTimeRectangle="454, 390, 272, 17" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TD' class='padl5 ng-scope' aaname='License expired for provider ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License expired for provider Blocker, Dana' /&gt;" Guid="adcf21ed-79c0-4b72-8cab-14a8cc68a3a8" SearchSteps="FuzzySelector, CV" />
-          <Target CVScreenId="5dc41166-457e-41dc-b380-e4a12bd41823" CvTextArea="458, 409, 269, 12" CvTextArgument="License expired for provider FINEGAN, DANIEL E" CvType="Text" DesignTimeRectangle="454, 407, 272, 17" FuzzySelectorArgument="&lt;webctrl parentid='providerLicense' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TD' class='padl5 ng-scope' aaname='License expired for provider ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License expired for provider FINEGAN, DANIEL E' /&gt;" Guid="f320020e-8355-445a-ab15-c2a36d5d1f80" SearchSteps="FuzzySelector, CV" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="59089920d1d17aad64daf2d1a6613855.png" xmlns="">0jZO-6oSMz0qqDkcpVkBAQA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" DesignTimeRectangle="953, 350, 20, 20" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='providerLicense' tag='BUTTON' /&gt;" Guid="6c358780-1d70-4ea5-81af-b9214d5ba35c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="19b82dfef3cb2f7a356d3c72363d1f77.png" xmlns="">0m1Qo4ACxcEuNHIBZrJtq1g</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
