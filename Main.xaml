@@ -150,7 +150,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1303,12903" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1303,12863" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -211,19 +211,19 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelProcessScopeX>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,12823" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,12783" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="1058,12582" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <Sequence sap:VirtualizedContainerService.HintSize="1058,12542" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,12520" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,12480" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -402,13 +402,13 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,10495" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,10455" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,10320" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,10280" sap2010:WorkflowViewState.IdRef="Sequence_6">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1143,7 +1143,7 @@
                           </uix:VerifyExecutionOptions>
                         </uix:NClick.VerifyOptions>
                       </uix:NClick>
-                      <uix:NCheckState DisplayName="Check App State 'Are you sure you want t…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,573" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                      <uix:NCheckState DisplayName="Check App State 'Are you sure you want t…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,533" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                         <uix:NCheckState.IfExists>
                           <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_28">
                             <sap:WorkflowViewStateService.ViewState>
@@ -1238,10 +1238,10 @@
                       </Assign>
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,190" sap2010:WorkflowViewState.IdRef="NClick_49" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                         <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="2be25019-de96-43a8-ac8f-e6afa403d0bb" ContentHash="sE6KU0MD7EOOTwQq8Hf7TQ" CvElementArea="1249, 695, 63, 24" CvTextArea="1261, 700, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1251, 696, 60, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='billingClaimBtn36' tag='BUTTON' /&gt;" Guid="bc5eff12-9036-4f8b-ba1c-10a744d4f839" InformativeScreenshot="975fd2eb302a3b260b14acea35a9a8a0.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/XUb_CPWB0UGj7tNk0TGFqQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e2e2f3e2-6f89-4f7c-a4b3-009bd791769f" ContentHash="KYOr4jInikWwcUaQH4dM-w" CvElementArea="1177, 695, 60, 24" CvTextArea="1198, 700, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1178, 746, 58, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimScreenOkBtn*' tag='BUTTON' /&gt;" Guid="dce039a2-1393-4112-9fcf-2e237debec7c" ImageBase64="" InformativeScreenshot="64cb169ca9b7aee10f3d7b26c49653a1.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/XUb_CPWB0UGj7tNk0TGFqQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
                               <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="2be25019-de96-43a8-ac8f-e6afa403d0bb" CvElementArea="1177, 695, 61, 24" CvTextArea="1198, 700, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1178, 696, 58, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='claimScreenOkBtn1756912934826' tag='BUTTON' type='button' class='btn btn-blue btn-sm btn-xs pull-right mr10 btnwd60' aaname='OK' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='OK' /&gt;" Guid="c6d63721-68d3-4612-93bc-1b6334c8d9b4" SearchSteps="FuzzySelector, CV" />
+                                <uix:Target CVScreenId="e2e2f3e2-6f89-4f7c-a4b3-009bd791769f" CvElementArea="1249, 695, 63, 24" CvTextArea="1261, 700, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1251, 746, 60, 22" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='billingClaimBtn36' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs pull-right mr10' aaname='Cancel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancel' /&gt;" Guid="d6960322-6bfe-4ebc-b7f1-3781ed559909" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
