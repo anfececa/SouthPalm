@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -51,8 +51,6 @@
       <x:String>UiPath.CV</x:String>
       <x:String>UiPath.CV.Activities</x:String>
       <x:String>UiPath.CV.Activities.Interfaces</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
       <x:String>UiPath.MicrosoftOffice365.Activities.Excel.Enums</x:String>
       <x:String>UiPath.Shared.Activities.Utils</x:String>
       <x:String>UiPath.MicrosoftOffice365.Activities.Files.Enums</x:String>
@@ -65,6 +63,10 @@
       <x:String>UiPath.MicrosoftOffice365.Activities.Files.Contracts</x:String>
       <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
       <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -142,6 +144,8 @@
       <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
       <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -150,80 +154,39 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1303,12863" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1303,13459" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1092,57" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
-      <ueab:ExcelProcessScopeX.Body>
-        <ActivityAction x:TypeArguments="ui:IExcelProcess">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="546,610" sap2010:WorkflowViewState.IdRef="Sequence_4">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,550" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="South Palm Cardiovascular Associates August 2025 Billing Report.xlsx">
-              <ueab:ExcelApplicationCard.Body>
-                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="478,254" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,194" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Dr. Francisco Nascimento Traini&quot;)]" SaveTo="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </ueab:ReadRangeX>
-                  </Sequence>
-                </ActivityAction>
-              </ueab:ExcelApplicationCard.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ueab:ExcelApplicationCard>
-          </Sequence>
-        </ActivityAction>
-      </ueab:ExcelProcessScopeX.Body>
+    <ui:DatabaseConnect DisplayName="Connect to Database" sap:VirtualizedContainerService.HintSize="1092,92" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="System.Data.Odbc" ConnectionString="Dsn=PostgreSQL35W;Uid=postgres;Pwd=Q1w2e3r4" DatabaseConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-    </ueab:ExcelProcessScopeX>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,12783" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
+    </ui:DatabaseConnect>
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="Run Query" ExistingDbConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]" sap:VirtualizedContainerService.HintSize="1092,147" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="[&quot;SELECT * FROM &quot;&quot;souhtclaims&quot;&quot;&quot;]">
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+    </ui:ExecuteQuery>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,13197" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="1058,12542" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <Sequence sap:VirtualizedContainerService.HintSize="1058,12956" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,12480" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,12894" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -402,13 +365,13 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,10455" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,10869" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,10280" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,10694" sap2010:WorkflowViewState.IdRef="Sequence_6">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -481,13 +444,21 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NForEachUiElement DisplayName="For Each UiElement 'For Each UiElement'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="954,1005" sap2010:WorkflowViewState.IdRef="NForEachUiElement_3" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                      <Assign sap:VirtualizedContainerService.HintSize="954,115" sap2010:WorkflowViewState.IdRef="Assign_6">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[GlobalVariablesNamespace.GlobalVariables.pacienteEncontrado]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NForEachUiElement DisplayName="For Each UiElement 'For Each UiElement'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="954,1083" sap2010:WorkflowViewState.IdRef="NForEachUiElement_3" LimitExtractionTo="Page" MaximumResults="5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                         <uix:NForEachUiElement.Body>
                           <ActivityAction x:TypeArguments="x:Int32">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="486,706" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="504,784" sap2010:WorkflowViewState.IdRef="Sequence_20">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="uiText" />
                               </Sequence.Variables>
@@ -496,7 +467,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Assign sap:VirtualizedContainerService.HintSize="452,115" sap2010:WorkflowViewState.IdRef="Assign_4">
+                              <Assign sap:VirtualizedContainerService.HintSize="470,115" sap2010:WorkflowViewState.IdRef="Assign_4">
                                 <Assign.To>
                                   <OutArgument x:TypeArguments="x:String">[uiText]</OutArgument>
                                 </Assign.To>
@@ -504,9 +475,9 @@
                                   <InArgument x:TypeArguments="x:String">[CurrentElement.Get("innerText").ToString.Trim]</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <ui:IfElseIfV2 Condition="[uiText.Contains(DateTime.Parse(CurrentRow(&quot;DOB&quot;).ToString.Trim).ToString(&quot;MM/dd/yyyy&quot;))]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="452,529" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
+                              <ui:IfElseIfV2 Condition="[uiText.Contains(DateTime.Parse(CurrentRow(&quot;DOB&quot;).ToString.Trim).ToString(&quot;MM/dd/yyyy&quot;))]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,607" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
                                 <ui:IfElseIfV2.Else>
-                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,90" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -518,37 +489,27 @@
                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
                                 </ui:IfElseIfV2.ElseIfs>
                                 <ui:IfElseIfV2.Then>
-                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,259" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,337" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NClick_45" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V5">
-                                      <uix:NClick.VerifyOptions>
-                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                          <uix:VerifyExecutionOptions.Retry>
-                                            <InArgument x:TypeArguments="x:Boolean" />
-                                          </uix:VerifyExecutionOptions.Retry>
-                                          <uix:VerifyExecutionOptions.Timeout>
-                                            <InArgument x:TypeArguments="x:Double" />
-                                          </uix:VerifyExecutionOptions.Timeout>
-                                        </uix:VerifyExecutionOptions>
-                                      </uix:NClick.VerifyOptions>
-                                    </uix:NClick>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,171" sap2010:WorkflowViewState.IdRef="NClick_45" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Timeout="500" Version="V5" />
+                                    <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_7">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:Boolean">[GlobalVariablesNamespace.GlobalVariables.pacienteEncontrado]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
                                   </Sequence>
                                 </ui:IfElseIfV2.Then>
                               </ui:IfElseIfV2>
                             </Sequence>
                           </ActivityAction>
                         </uix:NForEachUiElement.Body>
-                        <uix:NForEachUiElement.NextLink>
-                          <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="b7e60e94-56c3-414c-bef6-bc5efb62428e" CvElementArea="705, 623, 20, 21" CvType="ArrowButton" DesignTimeRectangle="706, 624, 20, 19" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div&amp;gt;table' id='patient-lookupTbl1' tag='TABLE' /&gt;&lt;webctrl id='patient-lookupLink2' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='patient-lookupTbl1' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='patient-lookupLink2' type='' tag='A' class='cursor icnext next-button-patients patientFilterForClaim ng-class:{&amp;apos;true&amp;apos;: &amp;apos;inactive&amp;apos;, &amp;apos;false&amp;apos;: &amp;apos;&amp;apos;}[inactiveNext] inactive' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fd63a6e6-383f-4c16-b207-7709c1b06738" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
-                            <uix:TargetAnchorable.PointOffset>
-                              <uix:PointOffset />
-                            </uix:TargetAnchorable.PointOffset>
-                          </uix:TargetAnchorable>
-                        </uix:NForEachUiElement.NextLink>
                         <uix:NForEachUiElement.Target>
                           <uix:TargetAnchorable BrowserURL="https://flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp#/mobiledoc/jsp/webemr/webpm/claimLookup.jsp" ContentHash="EmRKN7qxDEKeHSYf3TW1-Q" DesignTimeRectangle="527, 419, 358, 233" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl id='patient-lookupUl1' parentid='patientFilterForClaim' tag='UL' /&gt;" Guid="7eda8520-68c8-4c27-b04b-bbfb72dcc16c" InformativeScreenshot="44dee972162a9e30459dbbd5a16c48b0.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/gsUMbybCk0WrHlTH13jIfw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" />
                         </uix:NForEachUiElement.Target>
@@ -563,6 +524,27 @@
                           </scg:List>
                         </uix:NForEachUiElement.VariablesMetadata>
                       </uix:NForEachUiElement>
+                      <If Condition="[GlobalVariablesNamespace.GlobalVariables.pacienteEncontrado = False]" sap:VirtualizedContainerService.HintSize="954,337" sap2010:WorkflowViewState.IdRef="If_1">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:Continue sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Continue_2" />
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Provider'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;Provider&quot;).ToString]" Version="V5">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="9f30021b-2589-44f1-ae32-6c2e5a666f2a" ContentHash="tmPm4JGPv0G_szrNsVlB0w" CvElementArea="526, 268, 435, 26" CvType="InputBox" DesignTimeRectangle="527, 269, 402, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='provider-lookupIpt1_2112' tag='INPUT' type='text' class='no-cursory-check autocomplete-off-manual form-control patient-input clearable lookupinput zindexZero clsCreateClaimProvider ng-not-empty allowsmartnote_original' aaname='AVILA, INGRID' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="48ef686a-b56b-476b-b119-6b2685db574e" InformativeScreenshot="1150d53ad964671a36b50e03b0f95b47.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/Q5pABEu2pUuxvPtjiW60Lw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
@@ -1228,14 +1210,6 @@
                           </uix:TargetAnchorable>
                         </uix:NGetText.Target>
                       </uix:NGetText>
-                      <Assign sap:VirtualizedContainerService.HintSize="954,115" sap2010:WorkflowViewState.IdRef="Assign_5">
-                        <Assign.To>
-                          <OutArgument x:TypeArguments="x:Object">[CurrentRow("Total")]</OutArgument>
-                        </Assign.To>
-                        <Assign.Value>
-                          <InArgument x:TypeArguments="x:Object">[GlobalVariablesNamespace.GlobalVariables.TotalClaim]</InArgument>
-                        </Assign.Value>
-                      </Assign>
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,190" sap2010:WorkflowViewState.IdRef="NClick_49" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="e2e2f3e2-6f89-4f7c-a4b3-009bd791769f" ContentHash="KYOr4jInikWwcUaQH4dM-w" CvElementArea="1177, 695, 60, 24" CvTextArea="1198, 700, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1178, 746, 58, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimScreenOkBtn*' tag='BUTTON' /&gt;" Guid="dce039a2-1393-4112-9fcf-2e237debec7c" ImageBase64="" InformativeScreenshot="64cb169ca9b7aee10f3d7b26c49653a1.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/XUb_CPWB0UGj7tNk0TGFqQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
@@ -1247,7 +1221,16 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="954,139" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Dr. Francisco Nascimento Traini" WorkbookPath="South Palm Cardiovascular Associates August 2025 Billing Report.xlsx" />
+                      <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Run Command" ExistingDbConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]" sap:VirtualizedContainerService.HintSize="954,138" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" Sql="[&quot;UPDATE &quot;&quot;souhtclaims&quot;&quot; SET &quot;&quot;total&quot;&quot; = ? WHERE &quot;&quot;id&quot;&quot; = ?;&quot;]">
+                        <ui:ExecuteNonQuery.Parameters>
+                          <InArgument x:TypeArguments="x:Object" x:Key="Argument1">
+                            <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="GlobalVariablesNamespace.GlobalVariables.TotalClaim" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:Object" x:Key="Argument2">
+                            <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="CurrentRow(&quot;Id&quot;).ToString" />
+                          </InArgument>
+                        </ui:ExecuteNonQuery.Parameters>
+                      </ui:ExecuteNonQuery>
                     </Sequence>
                   </ActivityAction>
                 </ui:ForEachRow.Body>

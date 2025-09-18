@@ -30,5 +30,21 @@
     "UnresolvedTypeFullyQualifiedName": null,
     "Expression": null,
     "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "pacienteEncontrado",
+    "TypeFullyQualifiedName": "System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "dbConn",
+    "TypeFullyQualifiedName": "UiPath.Database.DatabaseConnection, UiPath.Database, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": null,
+    "IsLiteral": false
   }
 ]
