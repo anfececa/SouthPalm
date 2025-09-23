@@ -154,7 +154,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1303,13459" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1092,13716" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -174,19 +174,19 @@
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteQuery.Parameters>
     </ui:ExecuteQuery>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,13197" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Web EMR Login Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1092,13454" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="1058,12956" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <Sequence sap:VirtualizedContainerService.HintSize="1058,13213" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,12894" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1024,13151" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -276,29 +276,16 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ok'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'Ok'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,190" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" ContentHash="KIif_5DAM0KjzCqZD896Pw" DesignTimeRectangle="953, 350, 20, 20" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='providerLicense' tag='BUTTON' /&gt;" Guid="6c358780-1d70-4ea5-81af-b9214d5ba35c" InformativeScreenshot="19b82dfef3cb2f7a356d3c72363d1f77.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/tJkq_LfrNEi8u2VOyQH-lQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5d099c96-3cb8-4aae-94ec-0508620b861a" ContentHash="eAQ8nVg9LkiKHUpLqPbJew" CvElementArea="922, 449, 41, 27" CvTextArea="933, 456, 17, 12" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="923, 451, 38, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Ok' parentid='providerLicense' tag='BUTTON' /&gt;" Guid="1d85e24e-763f-4224-a195-3a1fcdead7cc" InformativeScreenshot="9035d1a612689f520275bdcb7787e7da.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/tJkq_LfrNEi8u2VOyQH-lQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5d099c96-3cb8-4aae-94ec-0508620b861a" CvElementArea="951, 323, 25, 26" CvTextArea="416, 329, 86, 14" CvTextArgument="License Alert" CvType="CloseButton" DesignTimeRectangle="408, 321, 568, 31" FuzzySelectorArgument="&lt;webctrl type='' parentid='providerLicense' tag='DIV' class='modal-header ui-draggable-handle' aaname='                                                            ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License Alert' /&gt;" Guid="c5f52830-68a6-4eb7-b2d1-f84f41ac9eac" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
                 </uix:NClick.Target>
-                <uix:NClick.VerifyOptions>
-                  <uix:VerifyExecutionOptions DisplayName="Element 'A jellybean-panelLink4'" Mode="Appears">
-                    <uix:VerifyExecutionOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionOptions.Retry>
-                    <uix:VerifyExecutionOptions.Target>
-                      <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="6e961590-3f75-4764-81cc-597cc3ac8fc5" ContentHash="8tFzaWC6sUiiglTxjow7Pw" CvElementArea="11, 126, 62, 43" CvType="Button" DesignTimeRectangle="31, 140, 23, 15" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" Guid="353b0c3a-9c94-44d3-ae61-6a0a86816793" InformativeScreenshot="9a277143e83a3a9af15e48f6c8743690.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/f_TT7m0ayUqYQvDLOF99bg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-                        <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target CVScreenId="6e961590-3f75-4764-81cc-597cc3ac8fc5" CvElementArea="11, 126, 62, 43" CvType="Button" DesignTimeRectangle="12, 128, 61, 40" FullSelectorArgument="&lt;webctrl id='jellybean-panelLink4' tag='A' /&gt;" Guid="d7dbcb0b-90e3-4888-87f6-b4c0e962d8a7" SearchSteps="Selector, CV" />
-                          </scg:List>
-                        </uix:TargetAnchorable.Anchors>
-                      </uix:TargetAnchorable>
-                    </uix:VerifyExecutionOptions.Target>
-                    <uix:VerifyExecutionOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionOptions.Timeout>
-                  </uix:VerifyExecutionOptions>
-                </uix:NClick.VerifyOptions>
               </uix:NClick>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DM'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="990,227" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                 <uix:NClick.Target>
@@ -365,20 +352,20 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,10869" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[GlobalVariablesNamespace.GlobalVariables.vDtbDatos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="990,11163" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,10694" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="988,10988" sap2010:WorkflowViewState.IdRef="Sequence_6">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Claims(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'Claims(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,227" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="29cf8ba3-1c46-4e90-aa52-9ddb0dc2127f" ContentHash="eFb7aIsDFUKWGBC49BX97A" CvElementArea="82, 415, 72, 27" CvType="Button" DesignTimeRectangle="83, 417, 70, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='claimLookupBtn10' tag='BUTTON' /&gt;" Guid="01021949-5754-4053-8e06-ddc286431c7c" InformativeScreenshot="1cd11a1db5724625618e34751cc55056.png" Reference="LIqL7-3VC0m0ArjBSxIv3g/ipaIou8Z9EqMe_dsGAPxpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -452,7 +439,7 @@
                           <InArgument x:TypeArguments="x:Boolean">False</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <uix:NForEachUiElement DisplayName="For Each UiElement 'For Each UiElement'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="954,1083" sap2010:WorkflowViewState.IdRef="NForEachUiElement_3" LimitExtractionTo="Page" MaximumResults="5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
+                      <uix:NForEachUiElement DisplayName="For Each UiElement 'For Each UiElement'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="954,1083" sap2010:WorkflowViewState.IdRef="NForEachUiElement_3" LimitExtractionTo="Page" MaximumResults="3" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Version="V5">
                         <uix:NForEachUiElement.Body>
                           <ActivityAction x:TypeArguments="x:Int32">
                             <ActivityAction.Argument>
@@ -644,7 +631,7 @@
                           </uix:VerifyExecutionTypeIntoOptions>
                         </uix:NTypeInto.VerifyOptions>
                       </uix:NTypeInto>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Facility'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;facillity&quot;).ToString]" Version="V5">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Facility'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="954,288" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="5bb1a898-3b2d-417e-9db3-03b1735d0783" Text="[CurrentRow(&quot;facility&quot;).ToString]" Version="V5">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5520d2a5-ef26-4d2a-b855-70fddd2dcda2" ContentHash="y5l_h9rmTkKaa29zsC9Phw" CvElementArea="526, 334, 218, 26" CvType="InputBox" DesignTimeRectangle="527, 335, 184, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='facility-lookupIpt1-6833' tag='INPUT' type='text' class='no-cursory-check form-control patient-input clearable lookupinput zindexAuto createClaimFacilityCls allowsmartnote_original ng-dirty ng-valid-parse ng-touched ng-empty' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f33a2e09-980e-4688-a5f6-ca0ef55aafb1" InformativeScreenshot="139d40c7f6963552f0ed489e263b02b0.png" IsResponsive="True" Reference="LIqL7-3VC0m0ArjBSxIv3g/M_1LKdlONU-aCkPP1bxAog" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -1221,14 +1208,20 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Run Command" ExistingDbConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]" sap:VirtualizedContainerService.HintSize="954,138" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" Sql="[&quot;UPDATE &quot;&quot;souhtclaims&quot;&quot; SET &quot;&quot;total&quot;&quot; = ? WHERE &quot;&quot;id&quot;&quot; = ?;&quot;]">
+                      <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Run Command" ExistingDbConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]" sap:VirtualizedContainerService.HintSize="954,147" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" Sql="[&quot;UPDATE &quot;&quot;souhtclaims&quot;&quot; SET &quot;&quot;total&quot;&quot; = ? WHERE &quot;&quot;id&quot;&quot; = ?;&quot;]">
                         <ui:ExecuteNonQuery.Parameters>
-                          <InArgument x:TypeArguments="x:Object" x:Key="Argument1">
-                            <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="GlobalVariablesNamespace.GlobalVariables.TotalClaim" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:Object" x:Key="Argument2">
-                            <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="CurrentRow(&quot;Id&quot;).ToString" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="x:Object" x:Key="Argument1">[GlobalVariablesNamespace.GlobalVariables.TotalClaim]</InArgument>
+                          <InArgument x:TypeArguments="x:Object" x:Key="Argument2">[CurrentRow("Id").ToString]</InArgument>
+                        </ui:ExecuteNonQuery.Parameters>
+                      </ui:ExecuteNonQuery>
+                      <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Run Command" ExistingDbConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]" sap:VirtualizedContainerService.HintSize="954,147" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_2" Sql="[&quot;INSERT INTO &quot;&quot;souhtclaimshistory&quot;&quot; (&#xD;&#xA;    &quot;&quot;firstname&quot;&quot;, &quot;&quot;lastname&quot;&quot;, &quot;&quot;dob&quot;&quot;, &quot;&quot;provider&quot;&quot;, &quot;&quot;group&quot;&quot;, &quot;&quot;time&quot;&quot;,&#xD;&#xA;    &quot;&quot;initialupload&quot;&quot;, &quot;&quot;99454_dos&quot;&quot;, &quot;&quot;reading_days&quot;&quot;, &quot;&quot;trainingdate&quot;&quot;,&#xD;&#xA;    &quot;&quot;mrn&quot;&quot;, &quot;&quot;program&quot;&quot;,&#xD;&#xA;    &quot;&quot;codigo1&quot;&quot;, &quot;&quot;codigo2&quot;&quot;, &quot;&quot;codigo3&quot;&quot;, &quot;&quot;codigo4&quot;&quot;,&#xD;&#xA;    &quot;&quot;facility&quot;&quot;, &quot;&quot;total&quot;&quot;&#xD;&#xA;)&#xD;&#xA;SELECT&#xD;&#xA;    &quot;&quot;firstname&quot;&quot;, &quot;&quot;lastname&quot;&quot;, &quot;&quot;dob&quot;&quot;, &quot;&quot;provider&quot;&quot;, &quot;&quot;group&quot;&quot;, &quot;&quot;time&quot;&quot;,&#xD;&#xA;    &quot;&quot;initialupload&quot;&quot;, &quot;&quot;99454_dos&quot;&quot;, &quot;&quot;reading_days&quot;&quot;, &quot;&quot;trainingdate&quot;&quot;,&#xD;&#xA;    &quot;&quot;mrn&quot;&quot;, &quot;&quot;program&quot;&quot;,&#xD;&#xA;    &quot;&quot;codigo1&quot;&quot;, &quot;&quot;codigo2&quot;&quot;, &quot;&quot;codigo3&quot;&quot;, &quot;&quot;codigo4&quot;&quot;,&#xD;&#xA;    &quot;&quot;facility&quot;&quot;, &quot;&quot;total&quot;&quot;&#xD;&#xA;FROM &quot;&quot;souhtclaims&quot;&quot;&#xD;&#xA;WHERE &quot;&quot;id&quot;&quot; = ?;&quot;]">
+                        <ui:ExecuteNonQuery.Parameters>
+                          <InArgument x:TypeArguments="x:String" x:Key="Argument1">[CurrentRow("Id").ToString]</InArgument>
+                        </ui:ExecuteNonQuery.Parameters>
+                      </ui:ExecuteNonQuery>
+                      <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Run Command" ExistingDbConnection="[GlobalVariablesNamespace.GlobalVariables.dbConn]" sap:VirtualizedContainerService.HintSize="954,138" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_4" Sql="[&quot;DELETE FROM &quot;&quot;souhtclaims&quot;&quot; WHERE &quot;&quot;id&quot;&quot; = ?;&quot;]">
+                        <ui:ExecuteNonQuery.Parameters>
+                          <InArgument x:TypeArguments="x:String" x:Key="Argument1">[CurrentRow("Id").ToString]</InArgument>
                         </ui:ExecuteNonQuery.Parameters>
                       </ui:ExecuteNonQuery>
                     </Sequence>

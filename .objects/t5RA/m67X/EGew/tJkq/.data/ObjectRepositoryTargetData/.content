@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="KIif_5DAM0KjzCqZD896Pw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="eAQ8nVg9LkiKHUpLqPbJew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" DesignTimeRectangle="953, 350, 20, 20" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='providerLicense' tag='BUTTON' /&gt;" Guid="6c358780-1d70-4ea5-81af-b9214d5ba35c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="19b82dfef3cb2f7a356d3c72363d1f77.png" xmlns="">0m1Qo4ACxcEuNHIBZrJtq1g</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="5d099c96-3cb8-4aae-94ec-0508620b861a" CvElementArea="922, 449, 41, 27" CvTextArea="933, 456, 17, 12" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="923, 451, 38, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Ok' parentid='providerLicense' tag='BUTTON' /&gt;" Guid="1d85e24e-763f-4224-a195-3a1fcdead7cc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5d099c96-3cb8-4aae-94ec-0508620b861a" CvElementArea="951, 323, 25, 26" CvTextArea="416, 329, 86, 14" CvTextArgument="License Alert" CvType="CloseButton" DesignTimeRectangle="408, 321, 568, 31" FuzzySelectorArgument="&lt;webctrl type='' parentid='providerLicense' tag='DIV' class='modal-header ui-draggable-handle' aaname='                                                            ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='License Alert' /&gt;" Guid="c5f52830-68a6-4eb7-b2d1-f84f41ac9eac" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9035d1a612689f520275bdcb7787e7da.png" xmlns="">06pfS-S_6fE-7KTotK6Bm5g</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
