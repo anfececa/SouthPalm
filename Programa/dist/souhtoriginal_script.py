@@ -53,7 +53,8 @@ provider_map = {
     "Dr. Gustavo Cardenas": "CARDENAS,GUSTAVO",
     "Dr. Charles Harring": "HARRING,CHARLES",
     "Dr. David Goldgrab": "GOLDGRAB,DAVID",
-    "Dr. Andres Ruiz": "RUIZ,ANDRES"
+    "Dr. Andres Ruiz": "RUIZ,ANDRES",
+    "Dr. Robert Carida": "CARIDA,ROBERT"
 }
 
 # ==============================
