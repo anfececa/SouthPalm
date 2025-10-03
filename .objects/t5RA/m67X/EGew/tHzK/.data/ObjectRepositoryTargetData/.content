@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KxuXR2a0RUWU4YvVhCMy-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="2fb0301b-c4d5-476d-b515-1b0993bf2bd6" CvElementArea="788, 483, 135, 26" CvType="InputBox" DesignTimeRectangle="789, 484, 133, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='CPTInfoTbl7' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='units' type='text' tag='INPUT' class='form-control input-sm ng-pristine ng-untouched ng-valid ng-not-empty allowsmartnote_original' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2ba7eaa0-4415-4a19-a184-cc5b6c996fda" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2fb0301b-c4d5-476d-b515-1b0993bf2bd6" CvTextArea="748, 491, 33, 11" CvTextArgument="Units:" CvType="Text" DesignTimeRectangle="689, 489, 92, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='CPTInfoTbl7' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='LABEL' class='control-label' aaname='Units:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Units:' /&gt;" Guid="a427f7a9-4908-492a-aeac-bc53f0df7b95" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80e61a78f7482d3df93901f333adf393.png" xmlns="">0o273-kyKzE6kdTxRhHpLow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gNKzo06QYUiK1kDYDbNdBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flsocaapp.ecwcloud.com/mobiledoc/jsp/webemr/index.jsp" CVScreenId="bc2b5dbd-c5af-4cde-9ffc-6d27b932474c" CvElementArea="1033, 669, 61, 26" CvTextArea="1054, 675, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1034, 670, 58, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl id='CPTUpdateOkBtn' tag='BUTTON' /&gt;" Guid="de485677-8cff-4be9-9cb1-1cab0c0e3968" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eCW (Madrid, Daniel )' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bc2b5dbd-c5af-4cde-9ffc-6d27b932474c" CvElementArea="1101, 669, 63, 27" CvTextArea="1112, 675, 39, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1102, 670, 60, 24" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='CPTInfoBtn30' tag='BUTTON' type='button' class='btn btn-lgrey btn-sm btn-xs pull-right mr10' aaname='Cancel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancel' /&gt;" Guid="d8abcb62-438b-4f91-9e7a-911692dcd93a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1b868f1b6f1ea6aa3911cc09c076f1ad.png" xmlns="">098ngsPW9r0a8nR1ga9tuVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

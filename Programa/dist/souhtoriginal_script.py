@@ -68,7 +68,7 @@ insert_original = sql.SQL("""
 """)
 
 # ==============================
-# 6. Insertar en SouhtClaims con códigos y facillity
+# 6. Insertar en SouhtClaims con códigos y facility
 # ==============================
 insert_procesado = sql.SQL("""
     INSERT INTO SouhtClaims (
@@ -76,7 +76,7 @@ insert_procesado = sql.SQL("""
         initialupload, "99454_dos", reading_days, trainingdate,
         mrn, program,
         codigo1, codigo2, codigo3, codigo4,
-        facillity
+        facility
     ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
               %s, %s, %s, %s,
               %s)
@@ -96,12 +96,12 @@ def asignar_codigos_no_training(time_str, dos_date):
     elif 40 <= time_val <= 59:  # AMARILLO
         return ("99454", "99457", "99458", None) if con_fecha else ("99457", "99458", None, None)
     elif time_val >= 60:  # ROJO
-        return ("99454", "99457", "99458", "99458") if con_fecha else ("99457", "99458", "99458", None)
+        return ("99454", "99457", "99458", "2") if con_fecha else ("99457", "99458", "2", None)
     else:  # time <= 19 → handled outside
         return ("99453", None, None, None)
 
-def asignar_facillity(provider_clean):
-    """Asigna la facillity según el provider"""
+def asignar_facility(provider_clean):
+    """Asigna la facility según el provider"""
     if provider_clean in ["NASCIMENTO,FRANCISCO", "MARTIN,BRUCE"]:
         return "CFM RPM PATIENT"
     elif provider_clean == "HELLER,ERIC":
@@ -130,7 +130,7 @@ for _, row in df.iterrows():
     had_trainingdate = bool(trainingdate_excel)              # bandera
     trainingdate_final = trainingdate_excel or "2025-09-30"  # lo que usamos en claims
     time_val = int(row["Time"]) if row["Time"].isdigit() else 0
-    facillity = asignar_facillity(provider_clean)
+    facility = asignar_facility(provider_clean)
 
     # Caso A: Con TrainingDate en el Excel
     if had_trainingdate:
@@ -140,7 +140,7 @@ for _, row in df.iterrows():
             row["Group"], row["Time"], row["InitialUpload"], row["99454 DOS"],
             row["Reading Days"], trainingdate_final, row["MRN"], row["Program"],
             "99453", None, None, None,
-            facillity
+            facility
         )
         cur.execute(insert_procesado, values_procesado)
         rows_inserted += 1
@@ -155,7 +155,7 @@ for _, row in df.iterrows():
                 row["Group"], row["Time"], row["InitialUpload"], row["99454 DOS"],
                 row["Reading Days"], trainingdate_final, row["MRN"], row["Program"],
                 codigo1, codigo2, codigo3, codigo4,
-                facillity
+                facility
             )
             cur.execute(insert_procesado, values_procesado)
             rows_inserted += 1
@@ -169,7 +169,7 @@ for _, row in df.iterrows():
                 row["Group"], row["Time"], row["InitialUpload"], row["99454 DOS"],
                 row["Reading Days"], trainingdate_final, row["MRN"], row["Program"],
                 "99453", None, None, None,
-                facillity
+                facility
             )
             cur.execute(insert_procesado, values_procesado)
             rows_inserted += 1
@@ -183,7 +183,7 @@ for _, row in df.iterrows():
                 row["Group"], row["Time"], row["InitialUpload"], row["99454 DOS"],
                 row["Reading Days"], trainingdate_final, row["MRN"], row["Program"],
                 codigo1, codigo2, codigo3, codigo4,
-                facillity
+                facility
             )
             cur.execute(insert_procesado, values_procesado)
             rows_inserted += 1
